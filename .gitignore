@@ -1,0 +1,19 @@
+# Reference data downloaded from other sites (the wiki, buddy.farm, other scripts).
+# Not ours to republish; the tools in tools/ download it again. See docs/REFERENCES.md.
+references/
+frpg-wiki-live.zip
+
+# Private working files, kept on this PC only
+research/
+drive-old-copies/
+HANDOFF.md
+HANDOFF*.md
+CLAUDE.md
+REFERENCES-RECLONE.md
+tools/sync-drive.py
+tools/split-game-data.py
+.git-playground-backup/
+.claude/
+
+__pycache__/
+*.tmp

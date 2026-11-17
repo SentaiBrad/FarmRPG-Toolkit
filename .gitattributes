@@ -1,0 +1,4 @@
+# Keep line endings the same on every computer (the build writes LF).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
