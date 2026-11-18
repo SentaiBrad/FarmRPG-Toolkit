@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.15.0 (2026-11-17)
+- Your inventory is now counted for every item, not just crops, and shared by every feature (same rules: free from
+  your Inventory page and the game's harvest replies, otherwise one read after Harvest All or the Vat, or the first
+  time). Crop Amounts uses it. Your counts are read once more after this update.
+- Library Hints (new): the Temple's "Something Strange" card says what it is (the Cursed Effigy and the Secret
+  Chains) and which of the 4 effigy pieces you have.
+- Checked the Art Gallery themes the game lets you preview (Green, Purple, Blue, Corn): the Toolkit stays readable.
+
 ## 1.14.0 (2026-11-17)
 - Works alongside FRPG HUD (or anything else that goes through the game's jQuery), with no extra requests:
   - An inventory refresh (e.g. HUD's Refresh button) updates Crop Amounts' counts.

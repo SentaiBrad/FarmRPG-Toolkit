@@ -29,6 +29,8 @@ Every feature, and each part of it, can be switched on or off there.
 - **Crop Amounts**: on the farm and the Grape Juice Vat, the seed menu shows how many of each crop you have (red at
   your inventory cap), an estimated harvest with your perks and meals, and a warning before a planting would mostly
   go over your cap.
+- **Library Hints**: cards that only hint at a secret (like the Temple's "Something Strange") also say what it is and
+  how far along you are.
 - **Fast Travel**: a bar at the bottom of the left menu with shortcuts you choose, including a **Debug** report you
   can copy when something looks wrong.
 
