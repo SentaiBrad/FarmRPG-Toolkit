@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.19.1 (2026-11-18)
+- Toolkit Menu: no shortcuts the game's left menu already has (Inventory and Workshop are gone). Mastery is off by
+  default; switch it on in settings if you want it.
+- Wording that didn't make sense: the Flea Market's "Some work elsewhere" is "Takes some work to get elsewhere" again
+  (and "Easy to get elsewhere", "Hard to get elsewhere", "Hard to get anywhere else"); the farm warning says "about
+  20 would go over your cap"; Piece 11's sources and a Flea option and the Mastery description read clearly.
+
 ## 1.19.0 (2026-11-18)
 - Fast Travel is now the Toolkit Menu: the bar says "Toolkit" with the compass, and the menu has sections:
   - Data check: one row per page to open, with its state (why it's needed is in the tooltip), or "All seen".
