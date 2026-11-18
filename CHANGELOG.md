@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.13.0 (2026-11-17)
+- Nothing is read on a timer any more; only on specific actions:
+  - Crop counts: the game's own reply to a harvest lists the exact crops you got; when the Toolkit sees it (through
+    jQuery's "request finished" event: no request, nothing wrapped), it adds them and reads nothing. Otherwise
+    once right after Harvest All or a Vat use, once if never seen, and free when you open Inventory.
+    Leaving the farm open costs nothing. The seed line says how old the counts are, with a link to Inventory.
+  - Meals running: free when you open Home or Quick Meals; after eating, from the Quick Meals panel the game reloads.
+    After an hour without a look, meals not known to be running say "Not checked" (the Food button shows "?"), with
+    links to Home and Quick Meals.
+  - Food list Eat buttons: taken from the game's Quick Meals panel when it's loaded.
+  - Mailboxes: read only for townsfolk never seen, or when their exact level or progress changed (no weekly re-read).
+
 ## 1.12.0 (2026-11-17)
 - Fewer server requests: perks and Townsfolk of the Day are no longer fetched in the background. They're read when
   you open the Perks, Farm Supply and Friendship Levels pages, including right after you unlock, remove or reset
