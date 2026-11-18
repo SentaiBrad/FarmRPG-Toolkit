@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.17.0 (2026-11-18)
+- Unlock Goals (new): big unlocks made of many parts say where each part comes from and your next step, with your
+  progress, where you are instead of in the Library:
+  - Swamp Puzzle (opens the Sinking Swamp): on its item page, under each of the 15 pieces you don't have, e.g.
+    "Borgen Mercantile: 100 Borgen Bucks · 35 / 100 Borgen Bucks", "456 / 1,000 personal requests",
+    "Corn of Interest Part 05 is open: 10 more parts to go".
+  - Each piece's item page says which goal it's for, how many pieces you have, and its next step.
+  - Shops: a piece on sale (Borgen Mercantile, Borgen's Camp, Flea Market) says it's a Swamp Puzzle piece.
+  - Cursed Effigy (the Temple's Secret Chains): the same, on its item pages; the Temple's "Something Strange" card
+    uses it too, so it now shows your next step for each part.
+- Help Requests is read for free when you open it (your open quests and request totals), for these next steps and
+  for quest matching later. Data check lists it when it's never been seen or is a day old.
+
 ## 1.16.6 (2026-11-18)
 - Counts are written the game's way everywhere: "1,228 / 5,078" (have / your cap, red at the cap) on the farm line,
   Flea Market rows and townsfolk Big XP gifts; "4,079 / 1,650 to finish" (have / needed, as in the Workshop) on
