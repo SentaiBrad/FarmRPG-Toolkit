@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.16.6 (2026-11-18)
+- Counts are written the game's way everywhere: "1,228 / 5,078" (have / your cap, red at the cap) on the farm line,
+  Flea Market rows and townsfolk Big XP gifts; "4,079 / 1,650 to finish" (have / needed, as in the Workshop) on
+  Temple chains. No more "you have" and "room for" sentences; parts of a line are separated by " · ".
+- Farm: every crop in the seed list shows its count, including the chosen one. The closed menu shows the game's own
+  label (a label laid over the game's fixed 170px box, in its own font and alignment), so nothing is cut off. The
+  perks and meals counted in "about 56" are in its tooltip. The warning only appears when some would go over your cap.
+- Flea Market: shorter lines with the game's own place names ("Small Cave 1 in 43 (29 per AP)", "Wishing Well",
+  "Workshop", "Grab Bag 02 and more").
+
 ## 1.16.5 (2026-11-18)
 - Crop Amounts: the seed list shows how many of each crop you have again (red at your cap); the closed menu keeps
   the game's own label (it's a fixed 170px), and nothing changes or moves when you open it. The line under it says
