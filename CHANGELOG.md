@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.16.5 (2026-11-18)
+- Crop Amounts: the seed list shows how many of each crop you have again (red at your cap); the closed menu keeps
+  the game's own label (it's a fixed 170px), and nothing changes or moves when you open it. The line under it says
+  how many you have of the chosen crop; each option now controls its own part of that line.
+- Mastery looks the same everywhere (Workshop, "Things found here", the farm line): one shared badge. Its note
+  gives each page's own reason for items without a count.
+- Locksmith Rewards: when none of your containers give gold or the tracked items, a card says so (the page looked
+  broken before). Its summary card now has the Toolkit tag like the others.
+- One shared look for summary cards, small grey lines, item chips and lead-in words (they had drifted apart).
+
 ## 1.16.4 (2026-11-18)
 - Crop Amounts: counts update right after Harvest, Harvest All and the Vat again. The game now sends these with
   fetch, so their replies can't be seen; the Toolkit reads your inventory straight after instead of waiting up to a
