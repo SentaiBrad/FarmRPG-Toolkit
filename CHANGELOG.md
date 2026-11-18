@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.16.2 (2026-11-18)
+- Pages no longer jump: when the Toolkit adds its lines, whatever is at the top of your screen stays where it is.
+  After an action that redraws the page (Craft, and the like), the game's own "back to where you were" now lands
+  exactly: before, the Toolkit's note at the top was missing when the game scrolled back, so the page ended up 29px
+  too far down the list. Debug report shows when the Toolkit held a page still.
+- Mastery in the Workshop sits on the craft's name line ("Glass Bottle (285) · Mastery 454K / 1M"; the tier is in the
+  colour and the tooltip) instead of a line of its own, so the list is no longer than the game's.
+- Mastery: at fishing and exploring spots, the note says items with no mastery (many exploring finds) show nothing,
+  and there's no note where nothing has mastery.
+
 ## 1.16.1 (2026-11-18)
 - Crop Amounts: counts are never guessed any more. When the game's harvest reply isn't seen, your inventory is read;
   if one was read under a minute ago, the read waits for the minute instead of adding an estimate (which could drift
