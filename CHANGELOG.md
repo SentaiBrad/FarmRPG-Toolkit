@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.16.3 (2026-11-18)
+- Debug report, more to go on:
+  - Game: its script version, jQuery, the active page, the scroll the game is about to restore.
+  - Page: scroll position, and the Toolkit's pieces on it by feature.
+  - Features: which parts are switched off. Feature data: what each feature uses (inventory, including any read
+    waiting; mastery with Mega count; meals; Townsfolk of the Day; mailboxes) and the perks each one counts.
+  - Activity since the page loaded: page checks and how long they take, redrawn pages settled, and a log of each
+    time the page was held still or settled.
+  - Saved data: total, the largest keys and all keys.
+  - Errors nothing caught are kept with the problems. Farm and player ids (long numbers) show as "#", also in older
+    log entries.
+
 ## 1.16.2 (2026-11-18)
 - Pages no longer jump: when the Toolkit adds its lines, whatever is at the top of your screen stays where it is.
   After an action that redraws the page (Craft, and the like), the game's own "back to where you were" now lands
