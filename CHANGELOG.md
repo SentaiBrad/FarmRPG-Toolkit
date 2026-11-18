@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.16.4 (2026-11-18)
+- Crop Amounts: counts update right after Harvest, Harvest All and the Vat again. The game now sends these with
+  fetch, so their replies can't be seen; the Toolkit reads your inventory straight after instead of waiting up to a
+  minute (which left the count behind).
+- Crop Amounts: fixed the check after Harvest All. It skipped the read when a growing plot's picture wasn't the
+  crop's own, and when the harvested plots disappeared (the game reloads the crop area). Tested live: the count went
+  up about 3 seconds after Harvest All.
+- Crop Amounts: the seed menu is a fixed 170px in the game, so counts in its label were cut off. They now show only
+  while the menu is open; the line under it says "you have N". The line also works with empty plots (it counted
+  only growing ones before).
+- Item counts are read whenever a page that shows them needs them. Reads are only kept a few seconds apart to avoid
+  duplicates, never held back for a minute.
+
 ## 1.16.3 (2026-11-18)
 - Debug report, more to go on:
   - Game: its script version, jQuery, the active page, the scroll the game is about to restore.

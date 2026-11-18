@@ -51,8 +51,8 @@ Every feature, and each part of it, can be switched on or off there.
   Inventory, Mastery, item pages, Perks, Farm Supply, Friendship Levels, the Quick Meals panel), and Fast Travel's Data check tells you
   which page to open when something hasn't been seen. A background read happens only right after an action that
   changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
-  farm, the Flea Market, the Temple; at most once a minute, since counts change with almost everything you do), or the
-  first time something is needed, one request at a time and spaced out.
+  farm, the Flea Market, the Temple: counts change with almost everything you do, so they're read whenever a page
+  needs them, never shown old or guessed), or the first time something is needed, one request at a time.
 - **Plays well with others.** No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.
 
