@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.16.0 (2026-11-18)
+- Flea Market (new): bundles go to the top of their section, with what's inside and what that would cost bought one
+  by one here. The hourly items say how else you can get them (Workshop, pets, fishing or exploring with the odds,
+  containers, the Wishing Well...) and how hard that is, hardest first. Odds are per catch or explore (with your
+  Eagle Eye and Iron Depot) and per AP or Large Net (with your Lemon Squeezer, Reinforced Netting and Fishing Trawl). Each row shows how many you have. It never
+  buys anything.
+- Temple Helper (new): each chain says how many to finish, how many you have, and (once you've opened it) its next
+  reward and rewards ready to claim. Ready and finishable chains first, with a summary on top. A chain's page gets
+  buttons that fill in the amount (next reward, finish, all you have); you still press GO.
+- Mastery (new): your mastery count, next tier and tier reached in the Workshop, under "Things found here" at fishing
+  and exploring spots, and for the crop in the seed picker. Read for free when you open the Mastery page or an item's
+  page; it says how old the counts are. Data check lists the Mastery page until it's been seen once.
+- Locksmith Rewards: a container's item page says what all of yours give.
+- Meal Reminders: Mushroom Stew (+10% mastery) is listed on the farm, fishing and the Workshop as optional; it never
+  turns the Food button orange.
+- Your inventory copy now keeps item names too (for pages that only name an item, like the Temple).
+- Item counts change with almost everything you do, so pages that show them (the farm and the Vat, the Flea Market,
+  the Temple) read your inventory when they open, at most once a minute, instead of only the first time. An item's
+  page updates that item's count for free ("N on hand").
+- Settings: an option that works with another feature says so and greys out while that feature is off (Mastery's
+  seed picker needs Crop Amounts). New Flea Market option for the per-AP and per-Large-Net odds.
+- One look for the Toolkit's tag and notes everywhere; Mastery's tier colours follow the Toolkit's meanings
+  (Mastered green, Grand and Mega gold); Debug report lists Temple chains seen.
+
 ## 1.15.0 (2026-11-17)
 - Your inventory is now counted for every item, not just crops, and shared by every feature (same rules: free from
   your Inventory page and the game's harvest replies, otherwise one read after Harvest All or the Vat, or the first

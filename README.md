@@ -22,10 +22,18 @@ Every feature, and each part of it, can be switched on or off there.
 - **Food Enhancement**: shows what each meal really does and how long it lasts, in the Quick Meals panel and on meal
   item pages.
 - **Meal Reminders**: a "Food" button next to the page title on pages where a meal helps (farm, fishing, exploring,
-  pets, sawmill, market, kitchen, mailboxes): green when your meals are running, orange when one isn't. Owners of the
-  Quick Meals perk can eat from its list (the game still asks before eating).
+  pets, sawmill, market, kitchen, Workshop, mailboxes): green when your meals are running, orange when one isn't.
+  Mushroom Stew is listed as optional where mastery counts. Owners of the Quick Meals perk can eat from its list (the
+  game still asks before eating).
 - **Locksmith Rewards**: what each of your containers gives (gold, juices, pies, Borgen Bucks, Time Eggs and more),
-  with totals you can tap to filter the list.
+  with totals you can tap to filter the list, and on a container's item page what all of yours give.
+- **Flea Market**: bundles first, with what's inside and what that would cost bought one by one; the hourly items
+  say how else you can get them and how hard that is, hardest first, with drop odds per catch or explore and per AP
+  or Large Net for your perks; how many of each you have.
+- **Temple Helper**: each chain's progress, how many you have, the next reward and rewards ready to claim, with
+  ready and finishable chains first. On a chain's page, buttons fill in the amount; you still press GO.
+- **Mastery**: your mastery in the Workshop, under "Things found here" and in the seed picker, from the Mastery page
+  and item pages you open.
 - **Crop Amounts**: on the farm and the Grape Juice Vat, the seed menu shows how many of each crop you have (red at
   your inventory cap), an estimated harvest with your perks and meals, and a warning before a planting would mostly
   go over your cap.
@@ -40,10 +48,11 @@ Every feature, and each part of it, can be switched on or off there.
 - **Gold perks stay worth buying.** Features help players without a perk but never replace it, and add to it for
   players who own it.
 - **Gentle on the server.** Nothing is read on a timer. The Toolkit reads what's on pages you open yourself (Home,
-  Inventory, Perks, Farm Supply, Friendship Levels, the Quick Meals panel), and Fast Travel's Data check tells you
+  Inventory, Mastery, item pages, Perks, Farm Supply, Friendship Levels, the Quick Meals panel), and Fast Travel's Data check tells you
   which page to open when something hasn't been seen. A background read happens only right after an action that
-  changed the numbers (e.g. one inventory read after Harvest All) or the first time something is needed, one request
-  at a time and spaced out.
+  changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
+  farm, the Flea Market, the Temple; at most once a minute, since counts change with almost everything you do), or the
+  first time something is needed, one request at a time and spaced out.
 - **Plays well with others.** No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.
 
@@ -55,7 +64,7 @@ The installable script is built from `src/`:
 python -I tools/build-userscript.py
 ```
 
-`src/data.js` (item names, townsfolk gifts, Locksmith contents, seeds) is generated from downloaded game data with
+`src/data.js` (item names, townsfolk gifts, Locksmith contents, seeds, Flea Market sources) is generated from downloaded game data with
 `tools/build-data.py`; see [docs/REFERENCES.md](docs/REFERENCES.md) for how to download it. Bump `@version` in
 `src/header.js` for a release. How additions should look: [STYLE-GUIDE.md](STYLE-GUIDE.md).
 
