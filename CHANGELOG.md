@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.16.1 (2026-11-18)
+- Crop Amounts: counts are never guessed any more. When the game's harvest reply isn't seen, your inventory is read;
+  if one was read under a minute ago, the read waits for the minute instead of adding an estimate (which could drift
+  from your real count).
+- Crop Amounts: the line under the seed menu is one short line that keeps its place: what the planting gives, room
+  left (or how much would be wasted) and the crop's mastery. Your count stays in the menu itself; the cookie tip and
+  the "counts from" line are gone.
+
 ## 1.16.0 (2026-11-18)
 - Flea Market (new): bundles go to the top of their section, with what's inside and what that would cost bought one
   by one here. The hourly items say how else you can get them (Workshop, pets, fishing or exploring with the odds,
