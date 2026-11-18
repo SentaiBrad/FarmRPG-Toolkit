@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.1 (2026-11-17)
+- Data check: perks are only asked for if the Toolkit has never seen them. Levelling up (new perk points) or time
+  passing no longer flags them; changes are made on the Perks and Farm Supply pages, which it reads as you use them.
+
 ## 1.13.0 (2026-11-17)
 - Nothing is read on a timer any more; only on specific actions:
   - Crop counts: the game's own reply to a harvest lists the exact crops you got; when the Toolkit sees it (through
