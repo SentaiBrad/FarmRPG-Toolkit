@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.14.0 (2026-11-17)
+- Works alongside FRPG HUD (or anything else that goes through the game's jQuery), with no extra requests:
+  - An inventory refresh (e.g. HUD's Refresh button) updates Crop Amounts' counts.
+  - A meal eaten outside Quick Meals (e.g. HUD's quick eat) updates Meal Reminders with one read of Home.
+- Debug report says whether FRPG HUD is running.
+
 ## 1.13.1 (2026-11-17)
 - Data check: perks are only asked for if the Toolkit has never seen them. Levelling up (new perk points) or time
   passing no longer flags them; changes are made on the Perks and Farm Supply pages, which it reads as you use them.
