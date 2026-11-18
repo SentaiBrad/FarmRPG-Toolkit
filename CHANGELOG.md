@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.18.0 (2026-11-18)
+- Unlock Goals: every next step is something you can act on, linked to where you do it:
+  - Questlines: the quest you have open (linked to it) and how many quests are left, even across questlines
+    ("Secretly A Society Summons You II is open: 14 more quests to Spirit of the Cards IV"). When none are open, where
+    the chain starts, from whom, and what it needs ("Fitness Friends Fit Forever I from Gary Bearson V, needs Gary
+    Bearson V at friendship 80").
+  - Shops: whether Borgen's Camp or the Mercantile has the part this week (from when you last opened them), with a link.
+  - Parts that need another unlock first say so, with that unlock's own next step.
+  - New unlocks: House of Cards (Rune Dice) and Gary's Crushroom (its key). In Town, House of Cards says "Locked" and
+    what opens it, while it's still locked.
+  - New option "Full next steps": off shows only where each part comes from, with links (the Library's info).
+- Mastery looks like the Workshop's everywhere (farm line, "Things found here"): grey "Mastery", then "have / target"
+  in bold (e.g. "Mastery 10.5K / 100K"; Mega Mastered "Mastery 1.06M / ∞", as the game's item page writes it, where it
+  showed only "1M"). Coloured on an MMO-style rarity scale by the game's own Mastery page groups: No Tier grey, Tier I,
+  Tier II green, Tier III (M) blue, Tier IV (GM) purple, Tier V (MM) orange, Mega Mastered red. The tooltip uses the
+  game's words: the group, the inventory chip ("Mastered", "Grand Mastered") and how many to go.
+- Quest chains toward goals come from buddy.farm's quest data (60 quests, each with its giver and what it needs).
+
 ## 1.17.0 (2026-11-18)
 - Unlock Goals (new): big unlocks made of many parts say where each part comes from and your next step, with your
   progress, where you are instead of in the Library:
