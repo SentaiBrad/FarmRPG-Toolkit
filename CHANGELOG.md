@@ -1,5 +1,34 @@
 # Changelog
 
+## 1.19.0 (2026-11-18)
+- Fast Travel is now the Toolkit Menu: the bar says "Toolkit" with the compass, and the menu has sections:
+  - Data check: one row per page to open, with its state (why it's needed is in the tooltip), or "All seen".
+  - Shortcuts: game pages you pick in settings (Inventory, Mastery and Help Requests to start; also Friendship
+    Levels, Workshop, Temple, Locksmith, Flea Market, Borgen's Camp, Borgen Mercantile).
+  - Settings and Debug.
+  Your settings carry over.
+- Clean-up after a full sanity check: removed code that was no longer used (an old after-eat timer that did nothing,
+  two unused helpers, a leftover style). Checked on 18 pages: no problems or errors, no page jumps, page checks about
+  13 ms on average.
+
+## 1.18.2 (2026-11-18)
+- Mastery: Mega Mastered counts are read for real ("1,553,631 / ∞ Progress" on the Mastery page and item pages).
+  They were saved as exactly 1,000,000, so e.g. Mushroom read "1M / ∞" instead of "1.55M / ∞". Open the Mastery page
+  once to update them.
+- Easier to read: lines that carry a count, next step, effect or stat are normal text, not grey (Unlock Goals' next
+  steps, Flea Market sources and odds, meal effects, how long a meal lasts, the Temple amount preview, your perks on
+  the multiplier card). Their numbers are bold, and your counts ("1 / 5,078") are bold everywhere. The grey used for
+  labels and hints is brighter in dark mode and darker in light mode.
+
+## 1.18.1 (2026-11-18)
+- Friendship Levels: a Loves or Likes row where everything is already given (faded) is hidden, so more townsfolk fit
+  on a screen. Super and Hates never fade (in the game they can always be given again); they faded before.
+- Unlock Goals: Piece 04 shows your own Borgen Buck rate and progress (read from Borgen's Camp: "5,839 / 9,435
+  Ancient Coins spent toward the next Buck"); the rate drops with Mega Masteries, so it's no longer written in.
+- Consistency: the Toolkit tag on the Friendship cards like every other card; numbers formatted one way everywhere;
+  the Eat button's tooltip says "N on hand" (the game's words).
+- Farm: the closed seed menu's label is placed again when the window size or zoom changes.
+
 ## 1.18.0 (2026-11-18)
 - Unlock Goals: every next step is something you can act on, linked to where you do it:
   - Questlines: the quest you have open (linked to it) and how many quests are left, even across questlines

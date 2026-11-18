@@ -11,7 +11,7 @@ Works in **Tampermonkey** and **Violentmonkey** (desktop and mobile browsers tha
 2. Open [`farmrpg-toolkit.user.js`](farmrpg-toolkit.user.js) (the "Raw" view) and your script manager offers to install it.
 3. Reload Farm RPG.
 
-Settings: **My Settings > FarmRPG Toolkit**, or the **Fast Travel** bar at the bottom of the left menu.
+Settings: **My Settings > FarmRPG Toolkit**, or the **Toolkit** bar (the compass) at the bottom of the left menu.
 Every feature, and each part of it, can be switched on or off there.
 
 ## Features
@@ -41,7 +41,7 @@ Every feature, and each part of it, can be switched on or off there.
   each part comes from and your next step, with your progress, on their item pages and in shops.
 - **Library Hints**: cards that only hint at a secret (like the Temple's "Something Strange") also say what it is and
   how far along you are.
-- **Fast Travel**: a bar at the bottom of the left menu with shortcuts you choose, including a **Debug** report you
+- **Toolkit Menu**: the Toolkit bar at the bottom of the left menu: the Data check, shortcuts to game pages you choose, Settings, and a **Debug** report you
   can copy when something looks wrong.
 
 ## How it treats the game
@@ -50,7 +50,7 @@ Every feature, and each part of it, can be switched on or off there.
 - **Gold perks stay worth buying.** Features help players without a perk but never replace it, and add to it for
   players who own it.
 - **Gentle on the server.** Nothing is read on a timer. The Toolkit reads what's on pages you open yourself (Home,
-  Inventory, Mastery, Help Requests, item pages, Perks, Farm Supply, Friendship Levels, the Quick Meals panel), and Fast Travel's Data check tells you
+  Inventory, Mastery, Help Requests, item pages, Perks, Farm Supply, Friendship Levels, the Quick Meals panel), and the Toolkit menu's Data check tells you
   which page to open when something hasn't been seen. A background read happens only right after an action that
   changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
   farm, the Flea Market, the Temple: counts change with almost everything you do, so they're read whenever a page
