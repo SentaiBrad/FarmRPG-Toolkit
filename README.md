@@ -37,9 +37,10 @@ Every feature, and each part of it, can be switched on or off there.
 - **No automation.** Nothing runs on its own or chains actions together.
 - **Gold perks stay worth buying.** Features help players without a perk but never replace it, and add to it for
   players who own it.
-- **Gentle on the server.** When a feature reads one of the game's pages in the background (your perks, inventory or
-  mailboxes), it only reads what's missing or out of date, one request at a time and spaced out, and stops when you
-  leave the page.
+- **Gentle on the server.** Things that rarely change (your perks, today's Townsfolk of the Day) are read only from
+  pages you open yourself; Fast Travel's Data check tells you which page to open when something hasn't been seen.
+  When a feature does read a page in the background (inventory, mailboxes), it only reads what's missing or out of
+  date, one request at a time and spaced out, and stops when you leave the page.
 - **Plays well with others.** No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.
 

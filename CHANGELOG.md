@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.12.0 (2026-11-17)
+- Fewer server requests: perks and Townsfolk of the Day are no longer fetched in the background. They're read when
+  you open the Perks, Farm Supply and Friendship Levels pages, including right after you unlock, remove or reset
+  perks, buy a gold perk, or switch to a saved Perk Set.
+- Data check in Fast Travel: a warning (and a badge on the bar) when the Toolkit hasn't seen one of those pages yet,
+  or it has changed since, with links to each. It turns to "All clear" once everything is seen.
+- Opening a townsfolk's mailbox no longer reads Friendship Levels in the background.
+- Friendship Levels: mailboxes are re-read only when a townsfolk's exact level or progress changed (or once a week),
+  instead of daily, and 2 seconds apart. The mailbox's multiplier card shows one factor per line.
+- Meals running: Home is read in the background at most once an hour (and never if you open Home yourself). After
+  you eat through Quick Meals or the Food list, the timers come from the Quick Meals panel the game refreshes.
+- Crop Amounts: your inventory is read in the background at most every 30 minutes, or for free when you open it.
+  After a harvest or a Vat use, the crops it gave are added as an estimate ("about") instead of re-reading.
+- Debug: the Toolkit always keeps a small log of its own requests and errors, so the Debug report (off by default in
+  Fast Travel) has history when you need it.
+
 ## 1.11.0 (2026-11-17)
 - Crop Amounts: on the farm and the Grape Juice Vat, the seed menu shows how many of each crop you have (red at your
   inventory cap), an estimated harvest with your Double Prizes perks and cookie meals, and a warning when a planting
