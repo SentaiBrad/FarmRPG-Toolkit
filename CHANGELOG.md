@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.21.2 (2026-11-18)
+- Mailbox: a "Not given yet, none on hand" card lists the loves and likes you haven't given and have none of (the
+  game only lists items you own, so these were missing), each linked to its item page.
+- Mailbox: the Big XP gifts card shows the XP you'd get, with your multiplier, like the rows ("+1,925 XP each"); it
+  showed the base XP before.
+- Farm and Vat seed list: your crop count reads "3,591 / 5,078" (have / cap), like the line under the menu.
+- Unlock Goals: each place is named once, as a link in the text ("Borgen's Camp, some Wednesdays, for 5,000 Ancient
+  Coins · 1,509 / 5,000 Ancient Coins · not there this week"), instead of again at the end.
+
 ## 1.21.1 (2026-11-18)
 - Sanity check fixes: the "Real effect" note on meal item pages has the Toolkit tag like every other note; the Debug
   report counts Unlock Goals' pieces on a page and shows the shop stock and Borgen Buck rate it's using; the Mastery
