@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.23.0 (2026-11-18)
+- Flea Market: a row the hardest-first sort moved from the game's order gets ↑ or ↓ (only rows that really moved),
+  and the note above the hourly items says what the arrows mean.
+- Going Back to a page that shows your counts (Flea Market, Temple, the farm and others) reads your inventory once,
+  like opening it fresh; before, it showed the counts from before you left.
+
 ## 1.22.1 (2026-11-18)
 - Toolkit menu: a Data check row whose page name is too long for its note ("Friendship Levels" · "Not seen today")
   puts the note on a second line instead of running the two together.

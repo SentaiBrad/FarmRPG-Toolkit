@@ -32,7 +32,8 @@ Every feature, and each part of it, can be switched on or off there.
   pies, Protein Bars, Buddy Dolls, Borgen Bucks, Heart Containers, Time Eggs and more) you can tap to filter the list,
   and on a container's item page what all of yours give.
 - **Flea Market**: bundles first, with what's inside and what that would cost bought one by one; the hourly items
-  say where else they come from ("Also from: ..."), hardest to get elsewhere first, with drop odds per AP or Large
+  say where else they come from ("Also from: ..."), hardest to get elsewhere first (an arrow marks a row moved from
+  the game's order), with drop odds per AP or Large
   Net for your perks; how many of each you have, and once you change the amount, how many you'd have after
   buying it (with a warning when some would go over your cap). Borgen's Camp and Borgen Mercantile show the same
   counts.
@@ -62,8 +63,8 @@ Every feature, and each part of it, can be switched on or off there.
   Borgen's Camp and the shops), and the Toolkit menu's Data check tells you which page to open when something
   hasn't been seen. A background read happens only right after an action that
   changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
-  farm, the Flea Market, the Temple: counts change with almost everything you do, so they're read whenever a page
-  needs them, never shown old or guessed), or the first time something is needed, one request at a time.
+  farm, the Flea Market, the Temple, also when you go Back to one: counts change with almost everything you do, so
+  they're read whenever a page needs them, never shown old or guessed), or the first time something is needed, one request at a time.
 - **Plays well with others.** No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.
 
