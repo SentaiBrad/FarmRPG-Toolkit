@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.20.1 (2026-11-18)
+- Flea Market: the hourly items' line is shorter. The "Takes some work to get elsewhere" grade is gone; the line says
+  "Also from:" and the places ("Not found anywhere else" when there are none), with one odds figure per place:
+  "Mount Banon (1 per 8 APs)" instead of "Mount Banon 1 in 11,753 (1 per 8 APs)". With the per-AP option off it's
+  "(1 in 11,753 explores)". The rows stay sorted hardest to get elsewhere first.
+
 ## 1.20.0 (2026-11-18)
 - Flea Market: once you change a row's amount (−, +, +MAX or typing), its count shows what you'd have after buying
   it: "2,599 → 2,609 / 5,078", red at or over your cap, with "521 would go over your cap" when some would. Back at 1,

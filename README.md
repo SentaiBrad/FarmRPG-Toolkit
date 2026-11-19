@@ -28,8 +28,8 @@ Every feature, and each part of it, can be switched on or off there.
 - **Locksmith Rewards**: what each of your containers gives (gold, juices, pies, Borgen Bucks, Time Eggs and more),
   with totals you can tap to filter the list, and on a container's item page what all of yours give.
 - **Flea Market**: bundles first, with what's inside and what that would cost bought one by one; the hourly items
-  say how else you can get them and how hard that is, hardest first, with drop odds per catch or explore and per AP
-  or Large Net for your perks; how many of each you have, and once you change the amount, how many you'd have after
+  say where else they come from ("Also from: ..."), hardest to get elsewhere first, with drop odds per AP or Large
+  Net for your perks; how many of each you have, and once you change the amount, how many you'd have after
   buying it (with a warning when some would go over your cap). Borgen's Camp and Borgen Mercantile show the same
   counts.
 - **Temple Helper**: each chain's progress, how many you have, the next reward and rewards ready to claim, with
