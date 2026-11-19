@@ -48,6 +48,8 @@ Every feature, and each part of it, can be switched on or off there.
   planting gives with your perks and meals, how long it takes to grow, your count against your cap, a warning when
   some would go over it, and the crop's mastery. At the Vat, the crop with the longest grow time that fits under your
   cap.
+- **Mining**: the Mines list shows each mine's next floor rewards (and how many floors are left) and its Charms
+  Active; a mine and its location page say where the next rewards are on the "Mining Floor Rewards" link.
 - **Unlock Goals**: account unlocks (the Swamp Puzzle's 15 pieces, the Cursed Effigy, House of Cards, Gary's
   Crushroom) say where each part comes from, with links, and your next step with your progress (the quest you're on
   in a questline, whether a shop has it this week, what has to be unlocked first), on their item pages, in shops and
@@ -68,7 +70,7 @@ Every feature, and each part of it, can be switched on or off there.
   Borgen's Camp, the Password Log and the shops), and the Toolkit menu's Data check tells you which page to open when something
   hasn't been seen. A background read happens only right after an action that
   changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
-  farm, the Flea Market, the Temple, also when you go Back to one: counts change with almost everything you do, so
+  farm, the Flea Market, the Temple, the Mines list, also when you go Back to one: counts change with almost everything you do, so
   they're read whenever a page needs them, never shown old or guessed), or the first time something is needed, one request at a time.
 - **Plays well with others.** No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.

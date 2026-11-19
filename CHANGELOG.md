@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.25.0 (2026-11-19)
+- Mining (new): on the Mines list, each mine's next floor rewards ("Next rewards at 300 Floors (24 left)") and its
+  Charms Active (read from your inventory with the page). On a mine and its location page, the "Mining Floor
+  Rewards" link says where the next rewards are. Reward floors from the Library's Mining Floor Rewards.
+
 ## 1.24.0 (2026-11-18)
 - Farm and Vat: each crop's grow time with your perks in the seed list ("Rice (4382) · 4,192 / 5,092 · 1d"), and
   "Grows in 1d" on the farm's line. Counts Quicker Farming I-IV, Irrigation System I/II, Enriched Soil and Quicker
