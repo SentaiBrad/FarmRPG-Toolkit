@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.20.2 (2026-11-18)
+- Mastery: a Mega Mastered item has no next target, so it reads "Mega Mastered 1.55M" instead of "Mastery 1.55M / ∞"
+  (farm line, Workshop, "Things found here"). The exact count is in the tooltip.
+
 ## 1.20.1 (2026-11-18)
 - Flea Market: the hourly items' line is shorter. The "Takes some work to get elsewhere" grade is gone; the line says
   "Also from:" and the places ("Not found anywhere else" when there are none), with one odds figure per place:
