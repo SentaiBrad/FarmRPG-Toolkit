@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.19.3 (2026-11-18)
+- Unlock Goals: Borgen's Camp stock counts as this week's only from this Wednesday's restock on (game time). Before,
+  stock seen in the last 7 days counted, so on a Wednesday last week's stock could show as current.
+- Data check: lists Borgen's Camp while a Swamp Puzzle piece you still need depends on it: its stock is from before
+  this week's restock ("New stock"), or your Borgen Buck rate was read before a new Mega Mastery ("Out of date"), or
+  it hasn't been seen yet.
+
 ## 1.19.2 (2026-11-18)
 - Data check: lists the Mastery page when Mega Mastered counts saved before 1.18.2 are still there (they read
   "1M / ∞"). Open it once to update them.
