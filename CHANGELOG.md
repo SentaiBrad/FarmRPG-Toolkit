@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.21.0 (2026-11-18)
+- Friendship Levels: four townsfolk per row on wide screens (1,400px and up), so more fit on a screen with the gift
+  rows under each. Phones and narrower windows keep the game's three. Option in Friendship Gifts' settings.
+
 ## 1.20.2 (2026-11-18)
 - Mastery: a Mega Mastered item has no next target, so it reads "Mega Mastered 1.55M" instead of "Mastery 1.55M / ∞"
   (farm line, Workshop, "Things found here"). The exact count is in the tooltip.

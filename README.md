@@ -17,7 +17,7 @@ Every feature, and each part of it, can be switched on or off there.
 ## Features
 
 - **Friendship Gifts**: Friendship Levels shows each townsfolk's super gifts, loves, likes and hates, fades loves and
-  likes you've already given, and hides a row once you've given everything in it. A townsfolk's mailbox marks every item with the XP it gives (Townsfolk of the Day, Over The Moon,
+  likes you've already given, and hides a row once you've given everything in it; on wide screens it shows four townsfolk per row. A townsfolk's mailbox marks every item with the XP it gives (Townsfolk of the Day, Over The Moon,
   event bonuses and your perks included), previews the level it would take you to, and sorts the best gifts first.
 - **Food Enhancement**: shows what each meal really does and how long it lasts, in the Quick Meals panel and on meal
   item pages.
