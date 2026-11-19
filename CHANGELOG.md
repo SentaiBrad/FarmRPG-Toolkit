@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.20.0 (2026-11-18)
+- Flea Market: once you change a row's amount (−, +, +MAX or typing), its count shows what you'd have after buying
+  it: "2,599 → 2,609 / 5,078", red at or over your cap, with "521 would go over your cap" when some would. Back at 1,
+  it's your count as before.
+- Borgen's Camp and Borgen Mercantile: every row shows how many you have ("318 / 5,078") and, once you change the
+  amount, what you'd have after buying it, the same way. The count is the one the game puts on the page, so nothing
+  is read for it (option in the Flea Market's settings).
+
 ## 1.19.3 (2026-11-18)
 - Unlock Goals: Borgen's Camp stock counts as this week's only from this Wednesday's restock on (game time). Before,
   stock seen in the last 7 days counted, so on a Wednesday last week's stock could show as current.
