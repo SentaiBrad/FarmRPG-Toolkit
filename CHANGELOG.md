@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.19.2 (2026-11-18)
+- Data check: lists the Mastery page when Mega Mastered counts saved before 1.18.2 are still there (they read
+  "1M / ∞"). Open it once to update them.
+
 ## 1.19.1 (2026-11-18)
 - Toolkit Menu: no shortcuts the game's left menu already has (Inventory and Workshop are gone). Mastery is off by
   default; switch it on in settings if you want it.
