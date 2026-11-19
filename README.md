@@ -17,16 +17,20 @@ Every feature, and each part of it, can be switched on or off there.
 ## Features
 
 - **Friendship Gifts**: Friendship Levels shows each townsfolk's super gifts, loves, likes and hates, fades loves and
-  likes you've already given, and hides a row once you've given everything in it; on wide screens it shows four townsfolk per row. A townsfolk's mailbox marks every item with the XP it gives (Townsfolk of the Day, Over The Moon,
-  event bonuses and your perks included), previews the level it would take you to, and sorts the best gifts first.
+  likes you've already given, and hides a row once you've given everything in it; Townsfolk of the Day stands out,
+  and on wide screens it shows four townsfolk per row. A townsfolk's mailbox marks every item with the XP it gives
+  (Townsfolk of the Day, Over The Moon, event bonuses and your perks included), previews the level it would take you
+  to, sorts the best gifts first, and lists the loves and likes you haven't given and have none of. An item's page
+  says which townsfolk love, like or hate it.
 - **Food Enhancement**: shows what each meal really does and how long it lasts, in the Quick Meals panel and on meal
   item pages.
 - **Meal Reminders**: a "Food" button next to the page title on pages where a meal helps (farm, fishing, exploring,
   pets, sawmill, market, kitchen, Workshop, mailboxes): green when your meals are running, orange when one isn't.
   Mushroom Stew is listed as optional where mastery counts. Owners of the Quick Meals perk can eat from its list (the
   game still asks before eating).
-- **Locksmith Rewards**: what each of your containers gives (gold, juices, pies, Borgen Bucks, Time Eggs and more),
-  with totals you can tap to filter the list, and on a container's item page what all of yours give.
+- **Locksmith Rewards**: what each of your containers gives, with totals of the gold and valuable items (juices,
+  pies, Protein Bars, Buddy Dolls, Borgen Bucks, Heart Containers, Time Eggs and more) you can tap to filter the list,
+  and on a container's item page what all of yours give.
 - **Flea Market**: bundles first, with what's inside and what that would cost bought one by one; the hourly items
   say where else they come from ("Also from: ..."), hardest to get elsewhere first, with drop odds per AP or Large
   Net for your perks; how many of each you have, and once you change the amount, how many you'd have after

@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.22.0 (2026-11-18)
+- Friendship Levels: Townsfolk of the Day stands out: a gold outline round the card and a gold "Townsfolk of the Day ·
+  x2 XP" line.
+- Item pages: a note says which townsfolk love, like or hate the item ("Likes: Beatrix, George · Hates: ROOMBA"),
+  with the ones you've already given it to faded. Option in Friendship Gifts.
+- Locksmith: every container gets a line with what it gives (valuable items first, up to 8, then "and N more"
+  linking to its item page), not only the ones with gold or valuable items. The totals still count gold and valuable
+  items, and the settings and the page now describe those the same way.
+- Temple: a chain whose reward is part of an unlock goal says so ("Swamp Puzzle"). On a chain's page, when the game's
+  amount box holds more than the chain needs, the preview says so and counts only what's needed.
+- Mailbox: the Big XP gifts card writes your count the same way as everywhere else (red at the cap).
+- Farm: the planting estimate counts empty and ready plots only, not ones still growing. When the game says "530
+  Mushroom in inventory", that exact count is used.
+- Workshop: the Food list says "No meal needed here" and whether Mushroom Stew is running.
+- Wording: fishing spots' note no longer mentions exploring finds; Mastery's note says "Mastery page seen ..." like
+  the Data check; Breakfast Boost uses the game's crop names; the Locksmith's item-page line has the Toolkit tag.
+
 ## 1.21.2 (2026-11-18)
 - Mailbox: a "Not given yet, none on hand" card lists the loves and likes you haven't given and have none of (the
   game only lists items you own, so these were missing), each linked to its item page.
