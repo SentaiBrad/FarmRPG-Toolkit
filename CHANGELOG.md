@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.26.0 (2026-11-19)
+- Item Uses (new): an item's page says what it's for and where to get it, in a card under its picture: what a quest
+  item does once you have it (the Library's Quest Artifacts, e.g. the Pig Collar), what mining tools are for, the
+  Help Requests that ask for it by name (the ones you have open first, linked, including the one you came from),
+  crafts and meals, Wishing Well, Exchange Center, Locksmith and townsfolk gifts, and where it comes from (drops,
+  crafting, shops, Flea Market, Locksmith containers, Help Request and townsfolk rewards, pets, level rewards, the
+  Temple and more). Read from buddy.farm the first time you open an item (one at a time, kept a week; nothing goes
+  to the game's server). When the sources list none, it says so.
+- The built script leaves out the source's comments (360 KB to 301 KB).
+- Food Enhancement: My Kitchen says what the meal picked in "Cook All / Select a Meal" does and how long it lasts
+  (its own option).
+- Shorter script description and header; the full detail is in the README.
+
 ## 1.25.0 (2026-11-19)
 - Mining (new): on the Mines list, each mine's next floor rewards ("Next rewards at 300 Floors (24 left)") and its
   Charms Active (read from your inventory with the page). On a mine and its location page, the "Mining Floor

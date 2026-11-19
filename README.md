@@ -22,8 +22,12 @@ Every feature, and each part of it, can be switched on or off there.
   (Townsfolk of the Day, Over The Moon, event bonuses and your perks included), previews the level it would take you
   to, sorts the best gifts first, and lists the loves and likes you haven't given and have none of. An item's page
   says which townsfolk love, like or hate it.
-- **Food Enhancement**: shows what each meal really does and how long it lasts, in the Quick Meals panel and on meal
-  item pages.
+- **Food Enhancement**: shows what each meal really does and how long it lasts, in the Quick Meals panel, on meal
+  item pages, and in My Kitchen for the meal you pick to cook.
+- **Item Uses**: an item's page says what it's for and where to get it: what a quest item does once you have it, the
+  Help Requests that ask for it (the ones you have open first), crafts, meals, Wishing Well, Exchange Center,
+  Locksmith and townsfolk uses, and where it drops, who sells it and what gives it (or that none are listed). Read
+  from buddy.farm the first time you open the item, and kept a week.
 - **Meal Reminders**: a "Food" button next to the page title on pages where a meal helps (farm, fishing, exploring,
   pets, sawmill, market, kitchen, Workshop, mailboxes): green when your meals are running, orange when one isn't.
   Mushroom Stew is listed as optional where mastery counts. Owners of the Quick Meals perk can eat from its list (the
@@ -71,8 +75,8 @@ Every feature, and each part of it, can be switched on or off there.
   hasn't been seen. A background read happens only right after an action that
   changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
   farm, the Flea Market, the Temple, the Mines list, also when you go Back to one: counts change with almost everything you do, so
-  they're read whenever a page needs them, never shown old or guessed), or the first time something is needed, one request at a time.
-- **Plays well with others.** No page globals, no wrapping of the game's network calls; every id, class and saved
+  they're read whenever a page needs them, never shown old or guessed), or the first time something is needed, one request at a time. Item pages read buddy.farm, not the game's server.
+- **Plays well with others.** Needs no other script (FRPG HUD and the like). No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.
 
 ## Building from source
