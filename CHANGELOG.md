@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.21.1 (2026-11-18)
+- Sanity check fixes: the "Real effect" note on meal item pages has the Toolkit tag like every other note; the Debug
+  report counts Unlock Goals' pieces on a page and shows the shop stock and Borgen Buck rate it's using; the Mastery
+  description mentions "Mega Mastered 1.55M".
+
 ## 1.21.0 (2026-11-18)
 - Friendship Levels: four townsfolk per row on wide screens (1,400px and up), so more fit on a screen with the gift
   rows under each. Phones and narrower windows keep the game's three. Option in Friendship Gifts' settings.
