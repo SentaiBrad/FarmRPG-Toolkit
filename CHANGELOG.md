@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.22.1 (2026-11-18)
+- Toolkit menu: a Data check row whose page name is too long for its note ("Friendship Levels" · "Not seen today")
+  puts the note on a second line instead of running the two together.
+
 ## 1.22.0 (2026-11-18)
 - Friendship Levels: Townsfolk of the Day stands out: a gold outline round the card and a gold "Townsfolk of the Day ·
   x2 XP" line.
