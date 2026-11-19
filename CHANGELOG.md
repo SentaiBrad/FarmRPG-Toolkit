@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.24.0 (2026-11-18)
+- Farm and Vat: each crop's grow time with your perks in the seed list ("Rice (4382) · 4,192 / 5,092 · 1d"), and
+  "Grows in 1d" on the farm's line. Counts Quicker Farming I-IV, Irrigation System I/II, Enriched Soil and Quicker
+  Corn (Library: Farming, Crop Drops), and Breakfast Boost for crops of 5 minutes or less.
+- Grape Juice Vat: "Longest grow time that fits under your cap: Rice (1d)" for the juices in the box.
+- Item pages: each Crafting Recipe ingredient's mastery on its name line, as in the Workshop (on a phone it drops
+  to a second line when it wouldn't fit beside the count).
+- Meal item pages: the "Real effect" note is a centred Toolkit card, like the Toolkit's other cards.
+- Library Hints: the Farmhouse's locked PIES card says where the Pie Machine comes from (Rosalie's Pie Inversion
+  Experimentation quests) and what PIES gives.
+- Library Hints: the Post Office's Secret Passwords card lists the passwords you haven't entered (from buddy.farm),
+  read from your Password Log when you open it; the Data check points to the log when it's unseen or out of date.
+  Each hint has its own setting.
+- Temple: the Secret Chains (behind the Cursed Effigy) are sorted like the other chains, with their own summary:
+  certificates done and crops to go.
+- Temple: finished chains are faded again, as intended (they weren't when they had no line under them).
+
 ## 1.23.0 (2026-11-18)
 - Flea Market: a row the hardest-first sort moved from the game's order gets ↑ or ↓ (only rows that really moved),
   and the note above the hourly items says what the arrows mean.
