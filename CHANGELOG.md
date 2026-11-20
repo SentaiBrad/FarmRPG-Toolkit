@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.26.1 (2026-11-19)
+- Friendship Gifts: the XP and level preview in mailboxes no longer count the O.M.G perks as an average x1.75. O.M.G
+  rolls once per gift (5% or 10% chance of x7 to x10, liked and loved items only), so one big gift usually gets
+  none and the preview showed too much. The multiplier card now says what the chance is.
+- Friendship Gifts: Townsfolk of the Day is also read from Home (its Friendship Levels row), so the x2 is counted
+  without opening Friendship Levels first.
+- Friendship Gifts: after a gift, every row's level preview follows the townsfolk's new level and bar.
+- Tested 2026-11-19 with 10, 100, 1,000 and 2,000 Horseshoes to Charles (Townsfolk of the Day): 330 XP each
+  (150 x 1.1 Primer x 2), and the 1,000 got one O.M.G x7, as the Library says.
+
 ## 1.26.0 (2026-11-19)
 - Item Uses (new): an item's page says what it's for and where to get it, in a card under its picture: what a quest
   item does once you have it (the Library's Quest Artifacts, e.g. the Pig Collar), what mining tools are for, the
