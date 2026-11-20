@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.26.2 (2026-11-19)
+- Friendship Gifts: the mailbox card says what gives extra XP in short plain lines ("Double XP: Townsfolk of the
+  Day", "+10%: Friendship Primer", "Lucky gifts: O.M.G, 1 in 10 gifts get 7 to 10 times the XP") instead of a
+  multiplier. Perks read from your pages no longer say "set by you".
+
 ## 1.26.1 (2026-11-19)
 - Friendship Gifts: the XP and level preview in mailboxes no longer count the O.M.G perks as an average x1.75. O.M.G
   rolls once per gift (5% or 10% chance of x7 to x10, liked and loved items only), so one big gift usually gets
