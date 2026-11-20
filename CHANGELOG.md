@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.27.0 (2026-11-20)
+- Mastery: after a craft (the Workshop, or Quick Craft), the crafted item's mastery count updates right away. The
+  game only replies "success" and the amount isn't fixed (Mushroom Stew, event bonuses), so the item's page is read
+  once, a moment after your last craft of it (several quick crafts share one read).
+- Item Uses: Help Requests you've completed are crossed out and listed last. Completed requests are read for free
+  when you open Completed Requests, or a quest's page that says "You completed this request!"; the Data check links
+  to Completed Requests when it hasn't been seen or Help Requests counts more completed than it knows.
+
 ## 1.26.2 (2026-11-19)
 - Friendship Gifts: the mailbox card says what gives extra XP in short plain lines ("Double XP: Townsfolk of the
   Day", "+10%: Friendship Primer", "Lucky gifts: O.M.G, 1 in 10 gifts get 7 to 10 times the XP") instead of a
