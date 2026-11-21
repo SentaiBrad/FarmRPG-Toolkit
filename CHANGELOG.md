@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.35.5 (2026-11-21)
+- Worth tooltips list every known price for each thing, not only the Gold one: "5 Lemon Seltzer: 100 Gold (20
+  each); 2 Borgen Bucks each at Borgen Mercantile". Before, a thing with a Gold price never showed its other prices.
+- An Ancient Coins price also says what it is in Gold (the Flea Market sells Ancient Coins). One name per currency
+  ("Borgen Bucks", "Ancient Coins") whatever the shop's button says.
+- Borgen Bucks and Ancient Coin prices exist only on Borgen Mercantile and Borgen's Camp (Wednesdays): no source
+  lists them, so they show once you've opened that shop.
+
 ## 1.35.4 (2026-11-21)
 - Item Uses: the House of Cards tooltip says "Trade:" again (1.35.3 changed it to "Trades:" without being asked).
   Every other 1.35.3 change re-checked live: shop rows' ids match their item links in every shop, "Inv Full" rows
