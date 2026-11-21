@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.30.0 (2026-11-20)
+- Crop Amounts: the seed list on the farm and the Grape Juice Vat can be sorted by grow time (shortest or longest
+  first, with your perks) or by seeds left (most or fewest first). The game's A-Z stays the default. Choose it from the
+  small sort icon by "Selected Seeds" or in the Toolkit settings; both lists share the choice.
+- Settings: options can now be a pick-one menu as well as a switch.
+
 ## 1.29.0 (2026-11-20)
 - The Toolkit has its own colours, blues and purples the game barely uses: every Toolkit link is indigo and
   underlined (Item Uses, Unlock Goals, Mastery, Friendship, the Flea Market and the rest), and the Toolkit tag is
