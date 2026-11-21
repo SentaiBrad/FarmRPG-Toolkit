@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.35.4 (2026-11-21)
+- Item Uses: the House of Cards tooltip says "Trade:" again (1.35.3 changed it to "Trades:" without being asked).
+  Every other 1.35.3 change re-checked live: shop rows' ids match their item links in every shop, "Inv Full" rows
+  get their shop's currency (Country Store prices match buddy.farm), the Locksmith filter, the farm line's tooltips
+  and its fit at phone width.
+
 ## 1.35.3 (2026-11-21)
 - Text with a tooltip has its own colour, a periwinkle blue next to the indigo links (`--frx-tip`).
 - Every tooltip that lists things is a bullet list: Item Uses' "and N more", completed Help Requests, Gift townsfolk,
