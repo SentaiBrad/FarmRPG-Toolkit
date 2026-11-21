@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.32.0 (2026-11-20)
+- Data the features used to have typed in now comes from the game's Library through the build (tools/build-data.py):
+  what Quest Artifacts do, mining tools and charms and reward floors, what each meal does and how long it lasts,
+  gift XP, items per Arnold Palmer and fish per Large Net, and the grow-time perks. The build stops with a message if
+  a Library page changes so a number can't be found.
+- Every item is now known to the Toolkit (1,588, name and picture), so no card shows "Item 539".
+- One list of game pages in core: every Toolkit link goes through it (Unlock Goals and the "open it" links too).
+- Item Uses: a townsfolk who gives an item at several friendship levels is named once, with the levels in its
+  tooltip (Bomb said "Cid, Cid, Cid"). A pickaxe's mine is named once.
+- Crop Amounts: Enriched Soil takes 10% of the base grow time, as the Library says (it used to halve the time left,
+  which only matched with every other speed perk).
+- Meals: a short label where space is tight ("+10% Exploring XP (lasts 5 min)"), and an ⓘ that opens everything the
+  Library says about the meal, gathered from every Library page (e.g. Quandary Chowder's "550 items with the perk"
+  from the Arnold Palmer page). The build stops if a short label has a number the Library doesn't state. Quick Meals
+  tiles show the short label, with the Library text in their tooltip. How long a meal lasts reads "(lasts 2 min)"
+  everywhere.
+- docs/RELEASE-TODO.md: the release to-do (data kept current, and updates reaching players).
+
 ## 1.31.0 (2026-11-20)
 - Item Uses: a place you haven't opened yet links to the Library page that says how to unlock it, with the
   requirement in its tooltip (e.g. Highland Hollow: "Mining level 10; needs a Bone Pickaxe"). Places you have opened
