@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.34.0 (2026-11-21)
+- Seeds: no crop is matched by name any more. Gold and Mega seeds come from the game's own descriptions ("Grows into
+  rare Gold Peas", "yields 10x Beet per seed planted") and the Library, checked against each other and the Library's
+  Cookies page; grow times must match the game's "Harvest every N hours". On the farm, the game's own grow time on
+  the page (data-ym) is used.
+- Townsfolk: loves, likes and hates are checked against the Library's Gifts table (they agree; a gift only one
+  source lists is kept, a gift the Library adds is added). Gifts any townsfolk takes and Super Loves come from the
+  Library's lists; friendship rewards are checked against the Library's Friendship Rewards.
+- The build also checks buddy.farm against the Library for Locksmith contents, passwords, Wishing Well trades, pet
+  items and drops per place (a drop only buddy.farm has must be a seasonal item).
+- Item Uses: drops only the Library lists are added: every mine's single-tile drops (Bone Pickaxe: Mining: Spring
+  Cave) and Gary's Crushroom after "Distant Illusions" (Painite, Mushroom Paste, Gary's Diary Pages 12 and 86).
+
 ## 1.33.0 (2026-11-21)
 - Every exploring, fishing and mining place links to its own page (mining.php?id=2 for Highland Hollow), for every
   player, whether or not the list was opened first; how to unlock it is in the tooltip. A place link never goes to
