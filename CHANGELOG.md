@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.29.0 (2026-11-20)
+- The Toolkit has its own colours, blues and purples the game barely uses: every Toolkit link is indigo and
+  underlined (Item Uses, Unlock Goals, Mastery, Friendship, the Flea Market and the rest), and the Toolkit tag is
+  soft violet.
+- Flea Market: the places in "Also from:" link to the exploring or fishing spot (once you've opened Explore or Go
+  Fishing).
+
 ## 1.28.1 (2026-11-20)
 - Item Uses no longer names the townsfolk a second time on an item's page while Friendship Gifts' note (under Item
   Details) does: it shows "Gift", with the names in its tooltip.
