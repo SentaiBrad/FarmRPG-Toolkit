@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.31.0 (2026-11-20)
+- Item Uses: a place you haven't opened yet links to the Library page that says how to unlock it, with the
+  requirement in its tooltip (e.g. Highland Hollow: "Mining level 10; needs a Bone Pickaxe"). Places you have opened
+  still link to the spot. Buildings that need unlocking (My Kitchen, Temple of Reward ...) say what unlocks them in
+  their tooltip. All of it comes from the Library's Unlocks and Mining pages, for every player.
+- Item Uses: mines are listed under "Mining" (they were filed under Exploring); opening the Mines page links them.
+- Item Uses: items that unlock a place say so ("Unlocks: Ember Lagoon"); a Help Request in a questline that unlocks
+  a place links to how to unlock it.
+- Item Uses: when every Help Request that asks for an item is completed (or has ended), it says "Currently None
+  Remaining" instead of the crossed-out list (the list is in its tooltip).
+- New Help Requests reach every item's card: when Help Requests shows a request you hadn't seen, items read from
+  buddy.farm before then are read again when their page opens.
+
 ## 1.30.1 (2026-11-20)
 - Crop Amounts: on the farm, "Dig Up" (shovels) is never sorted and always sits at the bottom of the seed list, in
   every order.
