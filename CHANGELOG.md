@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.35.2 (2026-11-21)
+- Item Uses: the containers an item comes from are named once, without a date, with the open shop that sells them
+  once at the end ("Locksmith: Cornucopia 02, Cornucopia 03 · on sale at Cecil's Curios"; a shop that sells only
+  some names them). Containers on sale are listed first. They come from the data, so they show before buddy.farm is
+  read. Opening Town drops a saved shop that Town no longer links to (Cecil's Curios is only open part of the month).
+- "buddy.farm" is a link wherever the Toolkit names it (the item's own buddy.farm page on item cards, the Passwords
+  page in Library Hints, the site on the settings page), opened in a new tab.
+- Containers in shops are worth what everything inside costs at the Flea Market, including the items that rotate in
+  and out and aren't up right now: the Flea Market page's own prices when you've opened it, else buddy.farm's
+  (new FLEA_GOLD in data.js). Cornucopia 01 went from 45 to 100 Gold (Grapes and Apple), Cornucopia 02 from 675 to
+  775 (Apple); totals checked by hand. Before the Flea Market is opened, buddy.farm's prices are used instead of
+  asking you to open it. (The Flea Market's own bundle card still counts only what's on sale there now.)
+- The worth's tooltips list each thing on its own line: "• 25 Gold Leaf: 375 Gold (15 each)" for what it sells, and
+  for the rest any other shop's price ("• 100 Worms: 3 Silver each at Country Store", Borgen Mercantile in Borgen
+  Bucks), never turned into Gold. A container with nothing sold for Gold now says so ("doesn't sell any of the 9
+  things inside", with the list) instead of showing nothing. Same in every shop, the Flea Market included.
+- Shops' own prices are read from the pages you open (each row's price for one and its currency, also rows you can't
+  buy right now); the Country Store's Silver prices also come from buddy.farm (new BUY_SILVER in data.js).
+- Tooltips on anything the Toolkit added are drawn in the page, so they grow and shrink with the page's zoom (the
+  browser's own tooltips stay one size).
+
 ## 1.35.1 (2026-11-21)
 - Item Uses: "Where to get it" names each container the item comes from, linked to its page ("Locksmith: Cornucopia
   02, Cornucopia 03"), instead of only "Locksmith" with a count in the tooltip, and adds the shop you last saw
