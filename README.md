@@ -36,7 +36,8 @@ Every feature, and each part of it, can be switched on or off there.
   game still asks before eating).
 - **Locksmith Rewards**: what each of your containers gives, with totals of the gold and valuable items (juices,
   pies, Protein Bars, Buddy Dolls, Borgen Bucks, Heart Containers, Time Eggs and more) you can tap to filter the list,
-  and on a container's item page what all of yours give.
+  and on a container's item page what all of yours give. In every other shop (Cecil's Curios, Borgen Mercantile,
+  the Country Store ...), a container on sale says what's inside and what that's worth at Flea Market prices.
 - **Flea Market**: bundles first, with what's inside and what that would cost bought one by one; the hourly items
   say where else they come from ("Also from: ..."), hardest to get elsewhere first (an arrow marks a row moved from
   the game's order), with drop odds per AP or Large

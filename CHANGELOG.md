@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.35.0 (2026-11-21)
+- Containers in every shop: a container on sale says what's inside and what that's worth at Flea Market prices, in
+  any shop the game draws with a buy button (Cecil's Curios at spshop.php, Borgen Mercantile, the Country Store, event
+  shops), not only the Flea Market (Locksmith Rewards, new option "In shops"). What's on sale and its price are the
+  page's own; only what a container holds comes from the data (checked against the game's own item pages for
+  Cornucopia 01-03 and Picnic Basket 01).
+- One shared card for it in core, so it reads the same everywhere: "Inside:" (a grab bag: "One of:"), then "about
+  400 Gold for the 2 things it sells (it doesn't sell the other 8), plus the 25 Gold inside", with the ones it
+  doesn't sell named in the tooltip. Totals checked by hand against the pages' own prices.
+- Flea Market: the same card; the Flea Market's gold items (5 Gold ...) no longer count as bundles, and only bundles
+  are moved to the top. Its prices are kept, with when they were read, to value containers in other shops.
+- The build no longer writes BUNDLES (CONTAINERS holds the same contents).
+
 ## 1.34.0 (2026-11-21)
 - Seeds: no crop is matched by name any more. Gold and Mega seeds come from the game's own descriptions ("Grows into
   rare Gold Peas", "yields 10x Beet per seed planted") and the Library, checked against each other and the Library's
