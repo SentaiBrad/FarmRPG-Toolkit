@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.36.0 (2026-11-21)
+- New feature, Pet Items (for owners of the Inventory Monitor gold perk, which is what shows an item would go over
+  your cap; the page's own "Since you have the Inventory Monitor perk" or your Farm Supply page tells): on the All Pet
+  Items page (Home's "View" on the pet line), a "Sort: Over max first" toggle on the game's "Show:" line (it moves
+  under it only when there's no room). A modifier, so it works with either of the game's filters: on, it keeps every
+  item shown and moves the ones that would go over your cap to the top; off, the game's order (your count plus what was found, against your cap; the game's red marking until your
+  counts are read). Counts are read when the page opens and when you come Back, so an item you stored, sold or
+  crafted below the cap goes back to its place. Checked live: the 23 rows the game marks red all went to the top.
+- One look for every Toolkit toggle (core's frx-toggle): on is the Toolkit's violet border and icon, the words stay
+  in the text colour. Pet Items' toggle (on in the cap's red, since it's about going over the cap) and the
+  Locksmith's tap-to-filter totals use it (the totals were green, which
+  means "good" in the style guide, and tinted the words).
+
+Core (nothing you see changes: the same 11 pages compared live, every line and tooltip, before and after). What
+features worked out or read on their own is now in core, so every feature shares one copy:
+- Drop odds (perks that change them, per AP and per Large Net), from the Flea Market.
+- Friendship: finding a townsfolk, gift tiers and XP, Townsfolk of the Day, friendship perks and your override,
+  levels and the level preview, gifts already given, from Friendship Gifts.
+- Farming: crops per planting, grow times with perks and meals, "21h 36m", from Crop Amounts.
+- Inventory counts the game shows: the farm's "N in inventory" message, Borgen's Camp and Borgen Mercantile rows (now
+  any shop that shows them), an item page's "N on hand" (Locksmith Rewards read its own).
+- The Quick Meals list: one reader, the same panel core reads meal timers from; its "on hand" counts are kept too.
+- Mine floors and Temple chain steps: read and saved by core whenever their pages are open, even with Mining or
+  Temple Helper off.
+- No item ids typed into features: meals.js names the meals features use (MEAL: Breakfast Boost, Over The Moon,
+  the AP and Large Net meals, Mushroom Stew, the sawmill meal).
+
 ## 1.35.5 (2026-11-21)
 - Worth tooltips list every known price for each thing, not only the Gold one: "5 Lemon Seltzer: 100 Gold (20
   each); 2 Borgen Bucks each at Borgen Mercantile". Before, a thing with a Gold price never showed its other prices.

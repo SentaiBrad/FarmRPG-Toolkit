@@ -45,6 +45,9 @@ Every feature, and each part of it, can be switched on or off there.
   Net for your perks; how many of each you have, and once you change the amount, how many you'd have after
   buying it (with a warning when some would go over your cap). Borgen's Camp and Borgen Mercantile show the same
   counts.
+- **Pet Items**: with the Inventory Monitor perk, the All Pet Items page gets a "Sort: Over max first" toggle next to the game's filter (it works
+  with either): the items that would go over your cap first, with every item still shown. Counts are read when you open it and when you
+  come back, so an item you brought below the cap goes back to its place.
 - **Temple Helper**: each chain's progress, how many you have, the next reward and rewards ready to claim, with
   ready and finishable chains first; the Secret Chains also say how many certificates are done and how many crops to
   go. On a chain's page, buttons fill in the amount; you still press GO.
