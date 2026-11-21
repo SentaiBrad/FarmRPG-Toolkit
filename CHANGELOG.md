@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.28.1 (2026-11-20)
+- Item Uses no longer names the townsfolk a second time on an item's page while Friendship Gifts' note (under Item
+  Details) does: it shows "Gift", with the names in its tooltip.
+- Debug report: lists Item Uses and Mining pieces on the page, and the Completed Requests, places, buddy.farm items
+  and mine floors the Toolkit has saved.
+
 ## 1.28.0 (2026-11-20)
 - Item Uses: each use and source is the game's name for it (Workshop, Locksmith, House of Cards, The Tower ...),
   linked to its page, with counts and details in a tooltip, so the card stays a short list. Exploring and fishing
