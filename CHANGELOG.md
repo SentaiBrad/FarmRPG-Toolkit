@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.30.1 (2026-11-20)
+- Crop Amounts: on the farm, "Dig Up" (shovels) is never sorted and always sits at the bottom of the seed list, in
+  every order.
+
 ## 1.30.0 (2026-11-20)
 - Crop Amounts: the seed list on the farm and the Grape Juice Vat can be sorted by grow time (shortest or longest
   first, with your perks) or by seeds left (most or fewest first). The game's A-Z stays the default. Choose it from the
