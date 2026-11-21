@@ -25,9 +25,11 @@ Every feature, and each part of it, can be switched on or off there.
 - **Food Enhancement**: shows what each meal really does and how long it lasts, in the Quick Meals panel, on meal
   item pages, and in My Kitchen for the meal you pick to cook.
 - **Item Uses**: an item's page says what it's for and where to get it: what a quest item does once you have it, the
-  Help Requests that ask for it (the ones you have open first), crafts, meals, Wishing Well, Exchange Center,
-  Locksmith and townsfolk uses, and where it drops, who sells it and what gives it (or that none are listed). Read
-  from buddy.farm the first time you open the item, and kept a week.
+  Help Requests that ask for it (the ones you have open first, completed ones crossed out), crafts, meals, Wishing
+  Well, Exchange Center, Locksmith and the townsfolk who love or like it, and where it drops, who sells or trades it
+  and what gives it (or that none are listed). Each place links to its page in the game, details are in tooltips,
+  and items with their own Library page link to it. Read from buddy.farm the first time you open the item, and kept
+  a week.
 - **Meal Reminders**: a "Food" button next to the page title on pages where a meal helps (farm, fishing, exploring,
   pets, sawmill, market, kitchen, Workshop, mailboxes): green when your meals are running, orange when one isn't.
   Mushroom Stew is listed as optional where mastery counts. Owners of the Quick Meals perk can eat from its list (the

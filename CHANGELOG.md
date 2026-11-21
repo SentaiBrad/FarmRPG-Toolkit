@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.28.0 (2026-11-20)
+- Item Uses: each use and source is the game's name for it (Workshop, Locksmith, House of Cards, The Tower ...),
+  linked to its page, with counts and details in a tooltip, so the card stays a short list. Exploring and fishing
+  spots link to the spot (learned when you open Explore or Go Fishing). Items with their own Library page end with a
+  Library link. Townsfolk who love or like the item are named. "N more" names the rest in its tooltip.
+- Item Uses: House of Cards trades are listed as a source (e.g. Honeycomb, Buddy Doll). A place no longer shows once
+  per drop rate ("Jundland Desert" four times). Items saved by an older version are read from buddy.farm again.
+- Completing a Help Request is seen from the game's reply to the button: it's crossed out in Item Uses and leaves
+  the open list (Unlock Goals, hints) right away, without opening Completed Requests again.
+- Shared pieces in core for every feature: links to the game's pages with tooltips (gameLink, tipHtml), places
+  (placeLink) and Library pages (libraryLink).
+- Everything that shows a value now redraws when it changes: the farm's seed line when mastery changes, mailboxes
+  when event bonuses or Townsfolk of the Day change (one shared reader for Townsfolk of the Day).
+
 ## 1.27.0 (2026-11-20)
 - Mastery: after a craft (the Workshop, or Quick Craft), the crafted item's mastery count updates right away. The
   game only replies "success" and the amount isn't fixed (Mushroom Stew, event bonuses), so the item's page is read
