@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.35.1 (2026-11-21)
+- Item Uses: "Where to get it" names each container the item comes from, linked to its page ("Locksmith: Cornucopia
+  02, Cornucopia 03"), instead of only "Locksmith" with a count in the tooltip, and adds the shop you last saw
+  selling it and when ("sold at Cecil's Curios on Nov 21"). Shops are read from the pages you open, never fetched;
+  opening a shop again replaces its list, so a container it stopped selling drops off.
+- Core: shopRows (a shop's buy rows) is shared by Locksmith Rewards and the new shop stock.
+
 ## 1.35.0 (2026-11-21)
 - Containers in every shop: a container on sale says what's inside and what that's worth at Flea Market prices, in
   any shop the game draws with a buy button (Cecil's Curios at spshop.php, Borgen Mercantile, the Country Store, event
