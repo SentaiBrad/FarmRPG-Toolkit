@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.33.0 (2026-11-21)
+- Every exploring, fishing and mining place links to its own page (mining.php?id=2 for Highland Hollow), for every
+  player, whether or not the list was opened first; how to unlock it is in the tooltip. A place link never goes to
+  the Library (a mine you have no pickaxe for: the game sends you to craft one).
+- The last facts typed into features now come from the Library through the build: Unlock Goals (each part's line is
+  the Library's, from Puzzle Pieces, Temple Secret, Unlocks and Rare Items; counts from those lines; quests from
+  buddy.farm's rewards), Super Loves (Library: Gifts), Townsfolk of the Day, Friendship Primer, Over The Moon and
+  O.M.G odds, Breakfast Boost's 5 minutes, cookies' 3x, the Secret Chains' 100,000 and 20, the Pie Machine card (the
+  Library's Quest Artifacts entry and where you are in its quests), mastery tiers (Item Mastery), and the Locksmith's
+  list of valuable items.
+- The build reads every fact from every Library page and stops when the pages disagree; perk names and card suits
+  the features name are checked against the Library and the items.
+- Unlock Goals: a part found only at a place another goal opens needs that goal first (Piece 11, also sold at
+  Borgen's Camp, no longer says it needs House of Cards). A single quest reads "isn't open: it's from Buddy (...)".
+
 ## 1.32.0 (2026-11-20)
 - Data the features used to have typed in now comes from the game's Library through the build (tools/build-data.py):
   what Quest Artifacts do, mining tools and charms and reward floors, what each meal does and how long it lasts,
