@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.35.3 (2026-11-21)
+- Text with a tooltip has its own colour, a periwinkle blue next to the indigo links (`--frx-tip`).
+- Every tooltip that lists things is a bullet list: Item Uses' "and N more", completed Help Requests, Gift townsfolk,
+  House of Cards trades and skill rewards; Crop Amounts' perks and meals. Text with a tooltip uses tipHtml everywhere
+  (Crop Amounts, Friendship's "Already given", Meal Reminders' "Can't tell" and "Optional").
+- Containers' worth tooltips show Silver only when the amount would cost 250M Silver or more; Borgen Bucks, Ancient
+  Coins and other currencies always (from the shops you've opened: no source lists them otherwise).
+- The Flea Market's odds note links buddy.farm (it said "Buddy's Almanac").
+- One shared way for each thing: the Flea Market reads its prices through core's shop reader (its own saved copy,
+  flea.prices, is removed), and a shop row with no price shown ("Inv Full") takes its shop's currency; Locksmith
+  Rewards and Friendship use core's chips, item links and "A, B and C" (Locksmith now writes "Gold" as the game does).
+
 ## 1.35.2 (2026-11-21)
 - Item Uses: the containers an item comes from are named once, without a date, with the open shop that sells them
   once at the end ("Locksmith: Cornucopia 02, Cornucopia 03 · on sale at Cecil's Curios"; a shop that sells only
