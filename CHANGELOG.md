@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.38.0 (2026-11-22)
+- Meal Reminders, the Food button: a Toolkit chip with the Toolkit's violet border; "Food" stays in the text colour
+  and only the dot and the count ("0/6") carry the state, green or orange (Brad's option C).
+- The Food list: each Eat is core's action chip with how many you have, "Eat · 461" (the game's own count from its
+  Quick Meals panel, which the game reloads after every eat, so the next list shows the new count with no extra
+  request). Running meals say "Have 50" instead. The top line is "5 not eaten." in orange, the rest in the text
+  colour. In the Toolkit's colours (Brad's option 4): violet frame and top line (new palette variable
+  --frx-tag-bg), violet Eat chips, and each meal's name links to its item page in the Toolkit's link colour.
+- Lemon Seltzer and other meals that last a number of uses: the game says how many are left only in its reply to
+  an Arnold Palmer or Lemonade ("(Lemon Seltzer has 46 uses left)", worker.php?go=drinklm, jQuery, so free). Core
+  keeps it (mealUsesLeft), and the list says "46 uses left" (tooltip: when it was read) instead of "Can't tell"; before
+  one is seen, "Not seen yet". Every meal in the list now counts toward the button and the top line ("0/6", not
+  "0/5"), and they change as soon as a reply comes in. Checked with a replayed reply: 0/6 became 1/6.
+- Core: ago() ("5 min ago"), moved from the Debug report so every feature says how old something is the same way.
+
 ## 1.37.0 (2026-11-22)
 - Crop Amounts, Feed Mill: the crop list shows how much Feed one of each crop makes ("Broccoli (1548) · 24 Feed
   each"), from the game's own numbers and formula (js/feedmill.js: Feed = amount × data-ym / 120). They match the
