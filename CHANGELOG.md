@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.39.1 (2026-11-22)
+- Meal Reminders: Lemon Seltzer's uses left come from the game's own Quick Meals panel ("50 uses left" on its tile;
+  core reads it with the panel, after every eat and whenever it's open), and the Food list reads the panel fresh
+  each time it opens on a page with such a meal (one read of the game's own panel, on that tap only). No cap: it's
+  whatever the game says, so drinking more raises it. "Not seen yet" is gone; with no reading it says "Not eaten" or
+  "Not checked" like every other meal. Checked live: after eating one, the list showed "50 uses left · Have 48" and
+  the button went to 2/6.
+- Checked live (real actions): eating Onion Soup from the Food list took its count from 461 to 460 ("Have 460",
+  "4:53 left", button 1/6); a mailbox's "Put something in" list sorted by core's reorderRows (Loves, then the rest,
+  Hates last). A real Arnold Palmer while exploring (1,793 to 1,792): core read "49 uses left" from the game's
+  reply right away, and the fresh panel read on opening the list said 49 too ("49 uses left · Have 48").
+
 ## 1.39.0 (2026-11-22)
 Shared-systems sweep (the major pieces; Brad: as much as possible in core). Nothing looks different except where
 noted; checked live, old build against new, on the Flea Market, Temple, Pet Items, the farm's seed list (three
