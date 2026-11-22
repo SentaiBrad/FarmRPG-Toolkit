@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.40.1 (2026-11-22)
+- The repository is public. The header now has @updateURL / @downloadURL (the raw file on GitHub's main branch) and
+  @homepageURL, so Tampermonkey and Violentmonkey find new versions on their own; each release bumps @version.
+
 ## 1.40.0 (2026-11-22)
 - Debug report, new [Syntax] section: the build's own checks on this script, stamped in when it's built
   ("built 2026-11-22: node --check ok, ESLint 0 errors, 9 warnings").
