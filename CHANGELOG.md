@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.39.0 (2026-11-22)
+Shared-systems sweep (the major pieces; Brad: as much as possible in core). Nothing looks different except where
+noted; checked live, old build against new, on the Flea Market, Temple, Pet Items, the farm's seed list (three
+sorts), the Locksmith and item pages: the same rows, order, marks and text.
+- Core reads your exact counts from every game pick list that shows them ("Wheat (2853)": the farm's seed list, the
+  Feed, Flour, Sugar and Sawmill crop lists, a Temple chain's item menu) into your shared inventory, for free whenever
+  such a page is open. Checked: a wrong saved Wheat count of 1 became 2,853 on opening the Flour Mill, no request.
+- Core reads your inventory again after Harvest, Harvest All and the Vat (moved from Crop Amounts), so every feature
+  showing counts gets it, and only when your inventory is in use.
+- One way to re-sort a list while remembering the game's order (reorderRows, gameOrder, movedRows), used by the Flea
+  Market, Pet Items, the Temple list, a mailbox's items and the seed list. Turning a sort off now always puts the
+  game's order back (the Flea Market and Temple used to leave rows where they were).
+- One way to say when something was read: core's when() ("Wed 3:15 PM"), the Data check's format, now also on the
+  Mastery note, the Friendship perks note, Meal Reminders' "Not checked since" (it showed only the time) and Lemon
+  Seltzer's tooltip (it said "5 min ago").
+- Core helpers moved out of features: countText ("1 plot", "3 plots"), countdown ("3:41"), pageUrl and pageQuery
+  (a page's address and id).
+
 ## 1.38.0 (2026-11-22)
 - Meal Reminders, the Food button: a Toolkit chip with the Toolkit's violet border; "Food" stays in the text colour
   and only the dot and the count ("0/6") carry the state, green or orange (Brad's option C).
