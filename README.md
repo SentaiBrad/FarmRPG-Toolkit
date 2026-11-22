@@ -93,23 +93,6 @@ Every feature, and each part of it, can be switched on or off there.
 - **Plays well with others.** Needs no other script (FRPG HUD and the like). No page globals, no wrapping of the game's network calls; every id, class and saved
   setting starts with `frx`. Follows the game's dark and light mode.
 
-## Building from source
-
-The installable script is built from `src/`:
-
-```
-npm install          # once: ESLint, a dev tool only (nothing is added to the script)
-python -I tools/build-userscript.py
-```
-
-The build also runs `node --check` and ESLint on the result and stamps what they found into the script, where the
-Debug report shows it.
-
-`src/data.js` (item names, townsfolk gifts, Locksmith contents, seeds, Flea Market sources, quest chains toward
-unlock goals) is generated from downloaded game data with
-`tools/build-data.py`; see [docs/REFERENCES.md](docs/REFERENCES.md) for how to download it. Bump `@version` in
-`src/header.js` for a release. How additions should look: [STYLE-GUIDE.md](STYLE-GUIDE.md).
-
 ## Credits
 
 - Game data: [Buddy's Almanac (buddy.farm)](https://buddy.farm/) by coderanger, and the Farm RPG Library (in-game wiki).
