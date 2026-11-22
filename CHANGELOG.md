@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.36.1 (2026-11-22)
+- Temple Helper, a chain's page: the amount buttons were the game's `button` links from before the style guide
+  (they sat above the line, looked like links, and only filled in the box far away). Now they take the place of the
+  game's "My Inventory / Enter how many to sacrifice" on its own line, next to the amount box and GO:
+  "Toolkit Have 4,078 · [Next reward (412)] [Finish chain (1,649)] [Max (4,078)] then press GO", using core's new
+  action chip (frx-act: a chip you tap to do something on the page, never styled as a link). "Have" keeps your count
+  in sight once a chip changes the amount; Max is everything you have, as the game fills in. The line under it
+  ("Sacrificing 412 reaches ...") is gone; the chips already say it. One line on a wide screen; on a phone the chips
+  get their own full-width line under "Have" and the amount box. Checked live on desktop and at 375px, and with a
+  real sacrifice: Next reward (412), GO, Yes took Have from 4,078 to 3,666 and the chips to the new amounts as soon
+  as the game reloaded the page (seen live by Brad), and the Temple list read 3,666 too.
+- Core reads the chain page's own count of the item it takes (the game's item menu, which GO is checked against) into
+  your inventory each time the page opens; the game reloads the page after GO, so the count after a sacrifice is
+  read with no extra request.
+- Tooltips showed behind the Food list (both were drawn at the same height, the list on top), so "Can't tell" never
+  popped up. Core's tooltip is now above the Toolkit's other floating boxes. The Food list also no longer redraws
+  itself every second while a meal is running (only its countdowns change), so a tooltip or a tap isn't lost.
+- Food button: a game notification sliding over the top bar ("CRAFTWORKS INVENTORY FULL") was taken for a button,
+  so the Food button jumped left. It now ignores the game's notifications. Checked live with the old and new build
+  (58px to 121px before, stays at 58px now).
+
 ## 1.36.0 (2026-11-21)
 - New feature, Pet Items (for owners of the Inventory Monitor gold perk, which is what shows an item would go over
   your cap; the page's own "Since you have the Inventory Monitor perk" or your Farm Supply page tells): on the All Pet
