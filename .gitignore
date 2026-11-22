@@ -17,3 +17,5 @@ tools/split-game-data.py
 
 __pycache__/
 *.tmp
+node_modules/
+package-lock.json

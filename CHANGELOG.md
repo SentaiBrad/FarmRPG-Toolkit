@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.40.0 (2026-11-22)
+- Debug report, new [Syntax] section: the build's own checks on this script, stamped in when it's built
+  ("built 2026-11-22: node --check ok, ESLint 0 errors, 9 warnings").
+- ESLint (dev only, nothing added to the script): `npm install` once, then the build runs it on the built file
+  (eslint.config.js: names that don't exist, unused leftovers, likely mistakes). First run: 0 errors, no unused
+  code; 9 warnings, all a name reused in an inner scope on purpose (e.g. the Food list's pop and core's tooltip pop).
+- Debug report, new [Game hooks] section (core's gameHooks, only when the report opens, no request): what the
+  Toolkit relies on in the game, ok / MISSING / not seen: jQuery, the router, the game's alerts, luxon, the Quick
+  Meals panel and its "uses left" lines, pick lists with counts, shop rows, and which game actions replied through
+  jQuery this session (opening containers, Arnold Palmer, Quick Meals, eating; Harvest All moved to fetch). A game
+  update that moves something shows here first. Checked live.
+
 ## 1.39.1 (2026-11-22)
 - Meal Reminders: Lemon Seltzer's uses left come from the game's own Quick Meals panel ("50 uses left" on its tile;
   core reads it with the panel, after every eat and whenever it's open), and the Food list reads the panel fresh
