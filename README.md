@@ -32,13 +32,17 @@ Every feature, and each part of it, can be switched on or off there.
   and items with their own Library page link to it. Read from buddy.farm the first time you open the item, and kept
   a week.
 - **Meal Reminders**: a "Food" button next to the page title on pages where a meal helps (farm, fishing, exploring,
-  pets, sawmill, market, kitchen, Workshop, mailboxes): green when your meals are running, orange when one isn't.
-  Mushroom Stew is listed as optional where mastery counts. Owners of the Quick Meals perk can eat from its list (the
-  game still asks before eating).
+  pets, sawmill, market, kitchen, Workshop, mailboxes), with how many of the page's meals are running ("Food 2/6",
+  green when all are, orange when one isn't). Tap it for the list: each meal's effect and time left, and for meals
+  that last a number of uses (Lemon Seltzer), the uses left as the game reports them. Mushroom Stew is listed as
+  optional where mastery counts. Owners of the Quick Meals perk can eat from the list ("Eat · 461", with how many you
+  have; the game still asks before eating).
 - **Locksmith Rewards**: what each of your containers gives, with totals of the gold and valuable items (juices,
   pies, Protein Bars, Buddy Dolls, Borgen Bucks, Heart Containers, Time Eggs and more) you can tap to filter the list,
   and on a container's item page what all of yours give. In every other shop (Cecil's Curios, Borgen Mercantile,
-  the Country Store ...), a container on sale says what's inside and what that's worth at Flea Market prices.
+  the Country Store ...), a container on sale says what's inside and what that's worth at Flea Market prices. After
+  opening many Void Bags, the game's popup of pictures lists each item once with its name and amount, in columns
+  that fit your window.
 - **Flea Market**: bundles first, with what's inside and what that would cost bought one by one; the hourly items
   say where else they come from ("Also from: ..."), hardest to get elsewhere first (an arrow marks a row moved from
   the game's order), with drop odds per AP or Large
@@ -50,7 +54,8 @@ Every feature, and each part of it, can be switched on or off there.
   come back, so an item you brought below the cap goes back to its place.
 - **Temple Helper**: each chain's progress, how many you have, the next reward and rewards ready to claim, with
   ready and finishable chains first; the Secret Chains also say how many certificates are done and how many crops to
-  go. On a chain's page, buttons fill in the amount; you still press GO.
+  go. On a chain's page, how many you have and buttons that fill in the amount (Next reward, Finish chain, Max); you
+  still press GO.
 - **Mastery**: your mastery count against the next target ("3.1K / 10K"), coloured by the game's tier group, in the
   Workshop, under "Things found here", on the farm and on an item page's Crafting Recipe, from the Mastery page and
   item pages you open.
@@ -58,7 +63,7 @@ Every feature, and each part of it, can be switched on or off there.
   your inventory cap) and each crop's grow time with your perks, and a line under the menu gives about how many the
   planting gives with your perks and meals, how long it takes to grow, your count against your cap, a warning when
   some would go over it, and the crop's mastery. At the Vat, the crop with the longest grow time that fits under your
-  cap.
+  cap. At the Feed Mill, how much Feed one of each crop makes.
 - **Mining**: the Mines list shows each mine's next floor rewards (and how many floors are left) and its Charms
   Active; a mine and its location page say where the next rewards are on the "Mining Floor Rewards" link.
 - **Unlock Goals**: account unlocks (the Swamp Puzzle's 15 pieces, the Cursed Effigy, House of Cards, Gary's
@@ -69,7 +74,8 @@ Every feature, and each part of it, can be switched on or off there.
   "Something Strange", the Farmhouse's locked PIES, and the Post Office's Secret Passwords (the answers you haven't
   entered, from buddy.farm; each hint can be turned off).
 - **Toolkit Menu**: the Toolkit bar (the compass) at the bottom of the left menu: the Data check, shortcuts to game
-  pages you choose, Settings, and a **Debug** report you can copy when something looks wrong.
+  pages you choose, Settings, and a **Debug** report you can copy when something looks wrong (it also says whether
+  this build passed its syntax checks and whether everything the Toolkit relies on in the game is still there).
 
 ## How it treats the game
 
@@ -79,7 +85,8 @@ Every feature, and each part of it, can be switched on or off there.
 - **Gentle on the server.** Nothing is read on a timer. The Toolkit reads what's on pages you open yourself (Home,
   Inventory, Mastery, Help Requests, item pages, Perks, Farm Supply, Friendship Levels, the Quick Meals panel,
   Borgen's Camp, the Password Log and the shops), and the Toolkit menu's Data check tells you which page to open when something
-  hasn't been seen. A background read happens only right after an action that
+  hasn't been seen. Counts a page already shows (the farm's seed list, the mills, a Temple chain, some shops) are
+  taken from it for free. A background read happens only right after an action that
   changed the numbers (e.g. one inventory read after Harvest All), when a page that shows your item counts opens (the
   farm, the Flea Market, the Temple, the Mines list, also when you go Back to one: counts change with almost everything you do, so
   they're read whenever a page needs them, never shown old or guessed), or the first time something is needed, one request at a time. Item pages read buddy.farm, not the game's server.
@@ -91,8 +98,12 @@ Every feature, and each part of it, can be switched on or off there.
 The installable script is built from `src/`:
 
 ```
+npm install          # once: ESLint, a dev tool only (nothing is added to the script)
 python -I tools/build-userscript.py
 ```
+
+The build also runs `node --check` and ESLint on the result and stamps what they found into the script, where the
+Debug report shows it.
 
 `src/data.js` (item names, townsfolk gifts, Locksmith contents, seeds, Flea Market sources, quest chains toward
 unlock goals) is generated from downloaded game data with
