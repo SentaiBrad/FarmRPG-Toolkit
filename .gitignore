@@ -19,3 +19,4 @@ __pycache__/
 *.tmp
 node_modules/
 package-lock.json
+docs/RELEASE-TODO.md

@@ -1,5 +1,42 @@
 # Changelog
 
+## 1.41.0 (2026-11-22)
+The sanity check's fixes, and Brad's answers to it.
+- Phones: core's new fallback (fitToScreen) keeps everything the Toolkit adds on screen. On a phone, anything of the
+  Toolkit's that sticks out past the edge wraps, with the game line holding it (e.g. the Workshop's mastery on the
+  S25 FE's 384px, which ran off the right edge). Only on screen, no requests; features can still lay themselves out
+  their own way on top.
+- Shared, one copy: Unlock Goals uses core's shop reader for "on sale now". Its own copy (goals.shops) is moved into
+  core's once and removed, so Borgen's Camp seen this week stays seen. A shop Town no longer links is kept, marked
+  closed, so Borgen's Camp between weeks isn't asked for in the Data check and parts say nothing about its stock.
+  The shop reader also keeps every row a shop sells (items), not only the priced ones.
+  One core helper for a line under a row's name (rowLine: Flea Market, Unlock Goals, Locksmith's shop lines), so they
+  always stack the same way, your count ("have / cap") first. Mining reads core's floor; Unlock Goals uses core's gameDay and rowItemId; Friendship's
+  item-page note uses core's giftTier.
+- Wording from the game: Townsfolk of the Day is "2x Friendship XP" everywhere (Friendship Levels' card, the
+  mailbox, the Data check; was "x2 XP" and "Double XP"). The top gift tier is the Library's "Super Loves" (item-page
+  note, mailbox marks, Item Uses' tooltip, Friendship Levels' card; the row label stays "Super"). Meal Reminders'
+  setting says "My Kitchen".
+- Friendship's item-page note: Heart Container and Bouquet of Flowers say "Loves: everyone" (anyone who doesn't is
+  named).
+- Text size: every line the Toolkit adds under a name is the game's own size for that kind of line, 11px, and 12px
+  on phones (core's --frx-under; was 13px, the Mines line and "Things found here" mastery 12px): shop and Flea
+  Market rows, Temple chains, Locksmith containers, the Mines list, "Things found here", a mailbox item's XP.
+- Hates are red on Friendship Levels too (style guide: red = harmful).
+- The Toolkit menu bar, its icons, the Debug window and the settings row's icon use the Toolkit's violet (style
+  guide), not green.
+- Locksmith: a grab bag's possible picks are dashed chips in the text colour (they carry amounts), not grey.
+- Temple: "then press GO" stays with the last amount chip instead of wrapping onto a line of its own.
+- Item Uses: no "Uses: Locksmith" for a container (the game's page says "This item can be opened"); a key's
+  "Unlocks N containers" stays. No "none listed" for a container; for anything else it comes before "Where to get it".
+- Item Uses: Heart Container and Bouquet of Flowers (loved by every townsfolk) show "Gift" again. Item Uses now asks
+  core's giftTier, which knows these two by their XP, instead of its own copy of the lists.
+- Item Uses: a shop you opened from two addresses (the Country Store from Town and from the farm) is named once in
+  "on sale at", not twice (core's shopsSelling keeps the newest).
+- Mastery, an item page's Crafting Recipe: the space before " · Mastery" is back ("White Parchment · Mastery").
+- Debug report: "Toolkit pieces on this page" counts Pet Items too; "Places known" says it's read from Explore, Go
+  Fishing and the Mines. Removed an unused menu hook; three comments moved to what they describe.
+
 ## 1.40.1 (2026-11-22)
 - The repository is public. The header now has @updateURL / @downloadURL (the raw file on GitHub's main branch) and
   @homepageURL, so Tampermonkey and Violentmonkey find new versions on their own; each release bumps @version.
