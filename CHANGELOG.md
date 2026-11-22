@@ -1,5 +1,33 @@
 # Changelog
 
+## 1.37.0 (2026-11-22)
+- Crop Amounts, Feed Mill: the crop list shows how much Feed one of each crop makes ("Broccoli (1548) · 24 Feed
+  each"), from the game's own numbers and formula (js/feedmill.js: Feed = amount × data-ym / 120). They match the
+  Library's Crop Chart and cover the Frozen crops it doesn't list. The closed 100px menu looks the same as before.
+  Its own option, on by default.
+- Locksmith Rewards, opening many Void Bags: the game's "Success!" popup that shows only pictures (one per drop,
+  the name only in each picture's tooltip; seen opening 25) now lists each item once, name and amount ("Grapes x1
+  (1 voided)"), in columns on a wider screen, every item on one line and the popup as wide as its columns need
+  (never wider than the screen), and one scrolling column on a phone, in the game's own popup width. Columns: "1"
+  or "Up to 2" to "Up to 5" (Up to 2 to start); the popup uses as many as fit the window right then at our normal
+  14px text (about 250px each), since a window can be square or 16:9, and changes live as the window does. Checked
+  with Up to 5 and one popup left open while the window changed: 5 columns at 1920×1080, 3 at 900×900, 1 at
+  384×832, 5 again at 1920×1080, centred each time. Text never gets smaller.
+- Core: two separate layout helpers that follow the window live, for any feature to call as needed: fitColumns
+  (columns that fit, never smaller text, one on a phone) and fitPopup (a game popup the Toolkit filled: fits the
+  window, centred, scrolls inside with a scrollbar and bottom fade). The list scrolls inside the popup and is kept short
+  enough that the whole popup (and its OK) fits on screen; the popup is centred again after the list changes. When it
+  scrolls, a thin scrollbar stays visible on the right (phones hide theirs) and the bottom rows fade while there's
+  more below.
+  Checked with the previous and new build on a 99-drop, 80-item test reply (the most the game opens at once; its own
+  Open only takes under 100) on desktop, at 375×667, a Galaxy S25 Ultra's 412×891 and an S25 FE's 384×832, scrolled
+  to the last item; 3 columns on desktop; repeated items add up (Drum x3, Grapes x4 (2 voided)).
+- Locksmith Rewards: on a phone (and on desktop for long lists) each container's "Gives ..." line ran off the right
+  edge and under the Open button, because the game's item title doesn't wrap and the line took that over. The line
+  now wraps, so every chip shows. Checked before and after at 412×891, 384×832 and desktop. Read from the game's own reply (jQuery, no request). Only Void Bags, which the Library says give one item
+  each, so the amounts are exact; the short list the game shows for a few bags is left as it is. Checked on
+  desktop and at 375px with the captured 25-bag reply.
+
 ## 1.36.1 (2026-11-22)
 - Temple Helper, a chain's page: the amount buttons were the game's `button` links from before the style guide
   (they sat above the line, looked like links, and only filled in the box far away). Now they take the place of the
