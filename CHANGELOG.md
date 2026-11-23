@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.42.0 (2026-11-22)
+- Item pages, on a phone: the Item Uses card is left-aligned, one line per use or source, label first ("Workshop:
+  Goes into 32 crafts"), so what was only in tooltips (which phones don't show) is on the card. Wider screens keep
+  the centred card.
+- Tap "What it does", "Uses" or "Where to get it" to fold that section on every item; it stays folded (saved in this
+  browser) and shows how many parts it holds. Every label that folds has an arrow: ▾ open, ▸ folded.
+- Folding is now one shared piece in core; Friendship Levels' Loves / Likes / Hates rows use it, and rows you folded
+  before stay folded.
+- The game's "go to this item" links land on the item (core, for every page): e.g. the Flea Market's charity line,
+  "Giving Box 01", scrolled to Freaky Picture (the game's link points at an old row id) and only lined up when the
+  page was still at its top. Each such link now goes to the row of the item it names, right under the top bar, from
+  wherever you are, with the game's own animation.
+
 ## 1.41.0 (2026-11-22)
 The sanity check's fixes, and Brad's answers to it.
 - Phones: core's new fallback (fitToScreen) keeps everything the Toolkit adds on screen. On a phone, anything of the
