@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.43.0 (2026-11-22)
+- Tooltips on phones (core, every feature): tap the Toolkit's dotted text to show its tooltip in a small box; tap
+  again, tap elsewhere or scroll to close it. A link or button with a tooltip shows it when you hold it, so a tap
+  still opens it. Long lists scroll inside the box. Screens with a mouse keep the usual hover tooltips.
+
 ## 1.42.0 (2026-11-22)
 - Item pages, on a phone: the Item Uses card is left-aligned, one line per use or source, label first ("Workshop:
   Goes into 32 crafts"), so what was only in tooltips (which phones don't show) is on the card. Wider screens keep
