@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.45.1 (2026-11-23)
+- Mastery: the note above "Things found here", the Workshop's list and a recipe reads in clear parts, in the game's
+  words: "Mastery Progress from your Mastery page, seen Mon 12:54 AM. Items without it have no mastery, or none yet.
+  Open Mastery to update."
+- Item Uses: Help Requests you've completed are no longer on the line, only in the "N more" tooltip.
+- Phones: a tap on anything that takes you somewhere (a link, a button, a game row, a Toolkit menu row) does that and
+  nothing else. Its tooltip shows only on the phone's own long-press (before, a timer of the Toolkit's showed it on
+  plain taps in Firefox for Android), and after a long-press, letting go doesn't open the link. A tooltip box now
+  closes when the page changes (it stayed on screen).
+- Mastery: items the game gives no mastery say "No mastery". Known from your Mastery page: an item you have (or
+  that's in your Museum) but that isn't on it has none, since getting an item adds to its mastery (only mailed
+  items don't, per the Library); an item's own page confirms it either way. When an item's mastery can't be known
+  yet, the note says to open its page.
+
 ## 1.45.0 (2026-11-23)
 - Toolkit menu: pick its row height in Settings, one for a wide screen and one for a phone: 44px (the game's own
   size), 40px, 36px, or 32px with smaller text. Wide screens start at 40px; phones keep 44px.

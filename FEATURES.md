@@ -64,7 +64,7 @@ open it, and in the background only when something changed.
 **What you see:**
 - **What it does:** for Quest Artifacts and Tower Artifacts, in the Library's words.
 - **Uses:**
-  - Help Requests that ask for it: yours first, completed ones crossed out.
+  - Help Requests that ask for it: yours first; ones you've completed only in the "N more" tooltip.
   - Crafts and meals it goes into; a recipe it teaches.
   - Farm buildings it goes into (Feed Mill with Feed per crop, Flour Mill, Sugar Cane Mill, Sawmill, Wine Cellar,
     Pig Pen, Raptor Pen, Orchard, Grape Juice Vat), linked to the building on your farm.
@@ -204,7 +204,7 @@ first, every item still shown.
 **Where:** the Workshop, "Things found here" at fishing and exploring spots, the farm, item pages' Crafting Recipe.
 
 **What you see:** your mastery count against the next target ("3.1K / 10K", or "Mega Mastered 1.55M"), coloured by
-the game's tier group (its name in the tooltip).
+the game's tier group (its name in the tooltip). An item the game gives no mastery says "No mastery".
 
 **Settings:**
 - Workshop
