@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.45.0 (2026-11-23)
+- Toolkit menu: pick its row height in Settings, one for a wide screen and one for a phone: 44px (the game's own
+  size), 40px, 36px, or 32px with smaller text. Wide screens start at 40px; phones keep 44px.
+- Toolkit menu: a shop shortcut is greyed with "Closed" when Town didn't link it the last time you opened Town
+  (Borgen's Camp, Borgen Mercantile); it still opens. A name too long for the note puts it below, as the Data
+  check does.
+
 ## 1.44.1 (2026-11-23)
 - Item pages: the Item Uses card ends with a line of its own, "More: Library · buddy.farm", linking to the item's
   Library page (when it has one) and its buddy.farm page (new tab), so anything the card doesn't cover is one tap
