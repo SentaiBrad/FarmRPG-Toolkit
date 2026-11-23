@@ -306,7 +306,7 @@ questline you're on, whether a shop has it this week, what has to be unlocked fi
 - Row height in the menu, on a phone: the same choices (starts at 44px)
 - Shortcuts: Mastery *(off)*, Help Requests, Friendship Levels *(off)*, Temple of Reward *(off)*, Locksmith *(off)*,
   Flea Market *(off)*, Borgen's Camp *(off)*, Borgen Mercantile *(off)*
-- Toolkit: Settings, Debug *(off)*
+- Toolkit: Settings, Debug (on while the Toolkit is being tested)
 
 ---
 

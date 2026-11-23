@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.45.2 (2026-11-23)
+- Phones: a plain tap no longer shows a tooltip box that stays on screen. Firefox for Android sends a made-up mouse
+  hover with every tap, which opened the Toolkit's hover tooltip (meant for a mouse) and nothing ever closed it.
+  Hover tooltips now ignore taps, and any tooltip box closes when the page changes.
+- Toolkit menu: Debug is on by default while the Toolkit is being tested.
+
 ## 1.45.1 (2026-11-23)
 - Mastery: the note above "Things found here", the Workshop's list and a recipe reads in clear parts, in the game's
   words: "Mastery Progress from your Mastery page, seen Mon 12:54 AM. Items without it have no mastery, or none yet.
