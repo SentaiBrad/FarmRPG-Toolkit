@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.44.1 (2026-11-23)
+- Item pages: the Item Uses card ends with a line of its own, "More: Library · buddy.farm", linking to the item's
+  Library page (when it has one) and its buddy.farm page (new tab), so anything the card doesn't cover is one tap
+  away. The Library link no longer sits at the end of "Where to get it".
+
 ## 1.44.0 (2026-11-22)
 Item Uses, one standard for every item:
 - Uses the game's own page already shows (Givable, Sell Price, Temple of Reward, Cooking Use, About this item) are
