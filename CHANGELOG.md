@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.43.1 (2026-11-22)
+- Faster page changes (core): the check after each page change no longer redoes the pages the game keeps in the
+  background (they were done while on screen). Data changes (inventory, perks, quests, effects, mastery, buddy.farm
+  reads) still update those pages right away. Friendship Levels opens in about 44 ms instead of 91, an item page in
+  about 24 instead of 37.
+
 ## 1.43.0 (2026-11-22)
 - Tooltips on phones (core, every feature): tap the Toolkit's dotted text to show its tooltip in a small box; tap
   again, tap elsewhere or scroll to close it. A link or button with a tooltip shows it when you hold it, so a tap
