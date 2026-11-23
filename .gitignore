@@ -4,7 +4,7 @@ references/
 frpg-wiki-live.zip
 
 # Everything we develop with stays on this PC (Brad, 2026-11-22): the repo holds only what players need, the built
-# script, README, CHANGELOG and LICENSE.
+# script, README, FEATURES, CHANGELOG and LICENSE.
 src/
 tools/
 docs/
