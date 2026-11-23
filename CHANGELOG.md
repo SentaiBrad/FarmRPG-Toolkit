@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.44.0 (2026-11-22)
+Item Uses, one standard for every item:
+- Uses the game's own page already shows (Givable, Sell Price, Temple of Reward, Cooking Use, About this item) are
+  never repeated, but they count: Thank You Card no longer says "none listed".
+- Farm buildings an item goes into, from each building's Library page, linked to the building on your farm: Feed
+  Mill (Feed per crop, from its Crop Chart), Flour Mill, Sugar Cane Mill, Sawmill, Wine Cellar, Pig Pen, Raptor Pen,
+  Orchard, Grape Juice Vat.
+- Tower Artifacts say what they do (Library: Tower Artifacts), like Quest Artifacts.
+- An item with no use anywhere says so in the Library's word: "Uses: none yet: a Collectible", linked to its page.
+- Museum: a line of its own, "Museum: not in your collection yet", only for items that count (Library: Museum
+  Completion) and aren't in yours. Your Museum is read once (one request, the first time an item page needs it),
+  again for free whenever you open it, and kept current from every count the Toolkit already reads.
+
 ## 1.43.1 (2026-11-22)
 - Faster page changes (core): the check after each page change no longer redoes the pages the game keeps in the
   background (they were done while on screen). Data changes (inventory, perks, quests, effects, mastery, buddy.farm
