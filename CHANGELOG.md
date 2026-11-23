@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.46.1 (2026-11-23)
+Style-guide sweep and a sanity check of every module (bugs only):
+- Notes and the small lines inside cards are in the text colour, not grey: they carry steps and counts (the Mastery
+  note, the Flea Market's odds note, Temple's "(10 not seen yet)", the Post Office's "doesn't list 1 of them yet").
+- Locksmith: "All 1,321 give" has its count bold, not grey; "Each one is a random pick of 5, which can be" is plain text.
+- Friendship: "Checking mailboxes: 5 / 30" and a mailbox's "Townsfolk of the Day ... not seen today: open Home" are
+  no longer grey.
+- Town no longer marks a shop you opened from the farm (the Country Store) as closed.
+- Friendship: a townsfolk's mailbox read in the background waits 10 minutes before it can be read again, even when it
+  worked (one that saved nothing could have been read again at every page change).
+- Debug report: shows your Museum (items collected, when read) and how many items are known to have no mastery.
+
 ## 1.46.0 (2026-11-23)
 - The FarmRPG Toolkit settings page, reworked: a short intro (version, what the switch does, tap a name for its
   options, when changes show), then one row per feature with its name, a one-line summary and its switch. Its
