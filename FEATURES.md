@@ -1,7 +1,9 @@
 # FarmRPG Toolkit: features in detail
 
 Every feature, and each part of it, can be switched on or off on the **FarmRPG Toolkit** settings page
-(**My Settings > FarmRPG Toolkit**, or **Settings** in the Toolkit menu). Each feature below has the same parts:
+(**My Settings > FarmRPG Toolkit**, or **Settings** in the Toolkit menu): each feature's switch is on its row, and a
+tap on its name shows its options (folded on phones, open on wider screens; "Open all" / "Fold all" at the top).
+Each feature below has the same parts:
 
 - **Where:** the game pages it adds to.
 - **What you see:** what it adds there.

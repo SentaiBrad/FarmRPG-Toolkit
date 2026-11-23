@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.46.0 (2026-11-23)
+- The FarmRPG Toolkit settings page, reworked: a short intro (version, what the switch does, tap a name for its
+  options, when changes show), then one row per feature with its name, a one-line summary and its switch. Its
+  options fold under it, with a link to that feature's section of FEATURES.md. Options start folded on a phone and
+  open on a wider screen; what you open or fold is remembered, and "Open all" / "Fold all" swaps them all at once.
+- Core folding: a section can start folded on phones only (used by the settings page).
+
+## 1.45.3 (2026-11-23)
+- Toolkit menu, Data check: a page's name and its state no longer run together ("Password LogNot seen yet"); when
+  both don't fit on one line with a gap, the state goes below, as on the other rows.
+
 ## 1.45.2 (2026-11-23)
 - Phones: a plain tap no longer shows a tooltip box that stays on screen. Firefox for Android sends a made-up mouse
   hover with every tap, which opened the Toolkit's hover tooltip (meant for a mouse) and nothing ever closed it.
