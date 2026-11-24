@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.46.2 (2026-11-23)
+- Toolkit menu: the Data check badge comes back when you switch the Data check option off and on again (it stayed
+  empty).
+- Data check: Borgen's Camp is only asked for on Wednesdays, when the camp is open. Other days its row led to an empty
+  page.
+- Phones: holding the Toolkit's dotted text shows its tooltip too, not only a tap.
+- Under the hood: features share core's helpers for reading ids, counts and item names and for redrawing only what
+  changed, instead of their own copies. The Debug report's times all read the same way.
+
 ## 1.46.1 (2026-11-23)
 Style-guide sweep and a sanity check of every module (bugs only):
 - Notes and the small lines inside cards are in the text colour, not grey: they carry steps and counts (the Mastery

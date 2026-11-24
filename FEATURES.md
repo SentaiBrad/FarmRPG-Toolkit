@@ -314,7 +314,7 @@ questline you're on, whether a shop has it this week, what has to be unlocked fi
 
 ## On phones
 
-- **Tooltips:** tap the Toolkit's dotted text to see its tooltip; hold a link or button that has one. Tap again,
+- **Tooltips:** tap or hold the Toolkit's dotted text to see its tooltip; hold a link or button that has one. Tap again,
   tap elsewhere or scroll to close it.
 - **Layout:** nothing the Toolkit adds runs off the screen. Item cards list one use or source per line.
 - **Folding:** sections you fold (item cards, Friendship rows) stay folded, on every page.
