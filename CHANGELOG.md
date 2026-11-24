@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.47.0 (2026-11-23)
+- New: **Quiz Answers.** On a Schoolhouse quiz, a card under the answer buttons has the right answer, folded on each
+  question until you tap "Answer"; while it's open the right button is outlined. A setting picks whether it starts
+  folded. Answers are buddy.farm's, checked against a second source.
+- New: **Wishing Well.** Under "Select Item", what one toss of the item you picked can give and the chance of each
+  (buddy.farm, checked against the Library).
+
+## 1.46.3 (2026-11-23)
+- Locksmith: the line under each container says what the amount in its box gives (one, when the page opens), not
+  your whole stack. It follows the game's −, +, +MAX and typing. The amount turns red when it's more than you have
+  (typed in, or + tapped at your whole stack).
+
 ## 1.46.2 (2026-11-23)
 - Toolkit menu: the Data check badge comes back when you switch the Data check option off and on again (it stayed
   empty).

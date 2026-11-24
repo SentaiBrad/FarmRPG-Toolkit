@@ -27,6 +27,8 @@ Each feature below has the same parts:
 | [Mining](#mining) | Next reward floors and charms |
 | [Unlock Goals](#unlock-goals) | Where each part of an unlock comes from |
 | [Library Hints](#library-hints) | What a hinted secret is |
+| [Quiz Answers](#quiz-answers) | The answer to each quiz question |
+| [Wishing Well](#wishing-well) | What a toss can give, and the chances |
 | [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
 | [On phones](#on-phones) | Tooltips, layout, folding |
 
@@ -128,14 +130,14 @@ Meals perk, eat from the list ("Eat · 461"); the game still asks before eating.
 
 **What you see:**
 - **Locksmith:** totals of the gold and valuable items your containers give (tap one to filter the list), and a line
-  under each container saying what your stack gives.
+  under each container saying what the amount in its box gives (red when it's more than you have).
 - **A container's item page:** what all of yours give.
 - **Shops:** what a container on sale holds and its worth at Flea Market prices.
 - **After opening many Void Bags:** the game's popup of pictures lists each item once, with its name and amount.
 
 **Settings:**
 - Totals at the top (tap one to filter the list)
-- A line under each container saying what your stack gives
+- A line under each container saying what the amount in its box gives (red when it's more than you have)
 - What grab bags can give (random picks)
 - On a container's item page: what all of yours give
 - In shops: what a container on sale holds, and its worth at Flea Market prices
@@ -288,6 +290,31 @@ questline you're on, whether a shop has it this week, what has to be unlocked fi
 **Settings:** each of the three above.
 
 **Data:** the Library and buddy.farm; which passwords you've entered, from your Password Log.
+
+---
+
+## Quiz Answers
+
+**Where:** a Schoolhouse quiz, while you take it.
+
+**What you see:** a card under the answer buttons with the right answer. It starts folded on each question; tap
+"Answer" to open it, and the right button gets the Toolkit's outline too. A question whose buttons don't match the
+data gets no answer rather than a wrong one. It never answers for you.
+
+**Settings:** whether the answer starts folded on each question.
+
+**Data:** buddy.farm's quiz answers, checked against a second source when the Toolkit is built.
+
+---
+
+## Wishing Well
+
+**Where:** the Wishing Well.
+
+**What you see:** under "Select Item", what one toss of the item you picked can give and the chance of each, with
+links to those items. It changes as you pick another item. It never tosses anything.
+
+**Data:** buddy.farm, checked against the Library's WW Drops Table when the Toolkit is built.
 
 ---
 
