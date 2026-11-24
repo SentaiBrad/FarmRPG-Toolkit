@@ -40,6 +40,7 @@ Every feature in detail (where it shows, what you see, its settings, where its d
 - **Library Hints**: what a hinted secret is, and how far along you are.
 - **Quiz Answers**: the right answer under each Schoolhouse quiz question, folded until you open it.
 - **Wishing Well**: what a toss of the item you picked can give, and the chance of each.
+- **buddy.farm Links**: a small arrow to buddy.farm after every place, quest, pet and townsfolk, and on their pages.
 - **Toolkit Menu**: the Data check, shortcuts, Settings and Debug, at the bottom of the left menu.
 
 On phones, tap the Toolkit's dotted text (or hold a link) to see its tooltip.

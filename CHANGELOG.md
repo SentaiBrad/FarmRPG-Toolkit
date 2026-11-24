@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.48.0 (2026-11-24)
+- New: **buddy.farm Links.** A small arrow after every place, Help Request, pet and townsfolk the Toolkit names
+  (Item Uses, Friendship Gifts, the Flea Market, Unlock Goals) opens its buddy.farm page in a new tab; the name
+  still opens the game's page. A Help Request, a place's info page, a pet's page and a townsfolk's mailbox end in
+  "More: Library · buddy.farm", like an item's card. Both can be switched off in Settings.
+
+## 1.47.1 (2026-11-24)
+- Food: meals that last a number of uses (Lemon Seltzer, Fish and Chips, Acorn Pie, Red Velvet Cake) say how many
+  each one adds when you eat another, since the uses add up: "50 uses · +50 each" in Quick Meals, "(lasts 50 uses;
+  each one eaten adds 50 more)" on item pages, in My Kitchen and the Food list.
+- Crop Amounts: the seed list's parts are split by " | " and lined up in columns on desktop. Phones show their own
+  picker, which can't line them up, so there it's the " | " only.
+
 ## 1.47.0 (2026-11-23)
 - New: **Quiz Answers.** On a Schoolhouse quiz, a card under the answer buttons has the right answer, folded on each
   question until you tap "Answer"; while it's open the right button is outlined. A setting picks whether it starts

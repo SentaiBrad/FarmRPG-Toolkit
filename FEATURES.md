@@ -29,6 +29,7 @@ Each feature below has the same parts:
 | [Library Hints](#library-hints) | What a hinted secret is |
 | [Quiz Answers](#quiz-answers) | The answer to each quiz question |
 | [Wishing Well](#wishing-well) | What a toss can give, and the chances |
+| [buddy.farm Links](#buddyfarm-links) | buddy.farm for every place, quest, pet and townsfolk |
 | [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
 | [On phones](#on-phones) | Tooltips, layout, folding |
 
@@ -95,7 +96,8 @@ the first time an item page needs it, then kept current from the counts the Tool
 
 **Where:** the Quick Meals panel, meal item pages, My Kitchen.
 
-**What you see:** what each meal really does and how long it lasts, with key words in bold.
+**What you see:** what each meal really does and how long it lasts, with key words in bold. Meals that last a number
+of uses say how many each one adds when you eat another ("50 uses · +50 each").
 
 **Settings:**
 - Effect and how long it lasts under each meal in Quick Meals
@@ -225,7 +227,8 @@ the game's tier group (its name in the tooltip). An item the game gives no maste
 **Where:** the farm, the Grape Juice Vat, the Feed Mill.
 
 **What you see:**
-- **Seed list:** how many of each crop you have (red at your cap) and each crop's grow time with your perks.
+- **Seed list:** how many of each crop you have (red at your cap) and each crop's grow time with your perks, lined
+  up in columns ("Rice (4422) | 4,139 / 5,078 | 2d"). On phones the phone's own picker can't line them up.
 - **A line under the seed menu:** about how many the planting gives with your perks and meals, how long it takes,
   your count against your cap (with a warning when some would go over), and the crop's mastery.
 - **Grape Juice Vat:** the crop with the longest grow time that fits under your cap.
@@ -315,6 +318,26 @@ data gets no answer rather than a wrong one. It never answers for you.
 links to those items. It changes as you pick another item. It never tosses anything.
 
 **Data:** buddy.farm, checked against the Library's WW Drops Table when the Toolkit is built.
+
+---
+
+## buddy.farm Links
+
+**Where:** wherever the Toolkit names a place, Help Request, pet or townsfolk (Item Uses, Friendship Gifts, the
+Flea Market, Unlock Goals), and at the bottom of a Help Request, a place's info page, a pet's page and a townsfolk's
+mailbox.
+
+**What you see:** a small arrow after each name that opens its buddy.farm page in a new tab; the name itself still
+opens the game's page. At the bottom of the pages above: "More: Library · buddy.farm" (the Library when it has a
+page for it). Items already have both: their page's card ends in the same line, and every item the Toolkit names
+links to that page.
+
+**Settings:**
+- A small arrow after each place, Help Request, pet and townsfolk the Toolkit names
+- "More: Library · buddy.farm" at the bottom of their own pages
+
+**Data:** buddy.farm's page addresses and the Library's page names, from their copies when the Toolkit is built.
+Links only: nothing is read from buddy.farm for this.
 
 ---
 
