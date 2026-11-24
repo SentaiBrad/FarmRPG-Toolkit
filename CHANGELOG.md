@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.50.0 (2026-11-24)
+- Locksmith: a container's Ancient Coin chip says where opening leaves you against your cap ("500 → 1,728 / 5,078"),
+  following the amount in the box, red when it would take you over. Your count is read when the Locksmith opens with
+  a container that gives them (and again after you open some, as the game reloads the page). Grab bags keep their
+  random range.
+
 ## 1.49.1 (2026-11-24)
 - Locksmith: every item a container gives is listed (no more "and N more", which hid items that could show red),
   still on one line: when the names don't fit, the line shows pictures and amounts, with each name and your count in
