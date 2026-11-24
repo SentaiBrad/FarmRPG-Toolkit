@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.49.0 (2026-11-24)
+- New: **Exploring Counts.** On an exploring place's screen, under the game's buttons, everything that place gives
+  (the game's own "Things found here", event items included) with your count "have / cap", red at your cap. Your
+  counts are read again a few seconds after your last explore, never added up, so they don't drift. Layouts: on a
+  wide screen Tiles (default) or List; on a phone Pictures (default) or List.
+- Locksmith: containers with random picks (grab bags, Mining Bags) now follow the amount in the box too, in the same
+  words as the rest: "Gives 3 random picks, each one of …", "7 give 21 random picks, each one of …".
+- Locksmith: an item turns red when what the container gives would take you over your cap (for a random pick, when
+  even one pick would), with your count in its tooltip; the same cap check as Exploring Counts.
+
 ## 1.48.0 (2026-11-24)
 - New: **buddy.farm Links.** A small arrow after every place, Help Request, pet and townsfolk the Toolkit names
   (Item Uses, Friendship Gifts, the Flea Market, Unlock Goals) opens its buddy.farm page in a new tab; the name

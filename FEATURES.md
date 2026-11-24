@@ -29,6 +29,7 @@ Each feature below has the same parts:
 | [Library Hints](#library-hints) | What a hinted secret is |
 | [Quiz Answers](#quiz-answers) | The answer to each quiz question |
 | [Wishing Well](#wishing-well) | What a toss can give, and the chances |
+| [Exploring Counts](#exploring-counts) | Your counts of what a place gives, while you explore |
 | [buddy.farm Links](#buddyfarm-links) | buddy.farm for every place, quest, pet and townsfolk |
 | [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
 | [On phones](#on-phones) | Tooltips, layout, folding |
@@ -318,6 +319,24 @@ data gets no answer rather than a wrong one. It never answers for you.
 links to those items. It changes as you pick another item. It never tosses anything.
 
 **Data:** buddy.farm, checked against the Library's WW Drops Table when the Toolkit is built.
+
+---
+
+## Exploring Counts
+
+**Where:** an exploring place's screen (the one with Continue), under the game's buttons.
+
+**What you see:** everything that place gives, in the game's own order, with your count "have / cap", red at your
+cap. Each item links to its page. Your counts are read a few seconds after your last explore, so they're always the
+game's own.
+
+**Settings:**
+- Layout on a wide screen: Tiles (picture, name, count) or List (two columns)
+- Layout on a phone: Pictures (picture and count; names in tooltips) or List
+
+**Data:** the place's own info page ("Things found here"), read when you open it; in the background only the first
+time you visit a place, at the start of a new month, or when you find something not on its list (an event item).
+Your counts: your inventory, read when you open the place and a few seconds after you stop exploring.
 
 ---
 

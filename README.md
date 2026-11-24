@@ -40,6 +40,7 @@ Every feature in detail (where it shows, what you see, its settings, where its d
 - **Library Hints**: what a hinted secret is, and how far along you are.
 - **Quiz Answers**: the right answer under each Schoolhouse quiz question, folded until you open it.
 - **Wishing Well**: what a toss of the item you picked can give, and the chance of each.
+- **Exploring Counts**: your counts of what a place gives, under its explore buttons.
 - **buddy.farm Links**: a small arrow to buddy.farm after every place, quest, pet and townsfolk, and on their pages.
 - **Toolkit Menu**: the Data check, shortcuts, Settings and Debug, at the bottom of the left menu.
 
@@ -53,7 +54,8 @@ On phones, tap the Toolkit's dotted text (or hold a link) to see its tooltip.
 - **Gentle on the server.** Nothing is read on a timer. The Toolkit reads what's on pages you open yourself, and the
   Data check tells you which page to open when something hasn't been seen. A background read happens only right
   after an action that changed your counts (one inventory read after Harvest All), when a page that shows your counts
-  opens, or the first time something is needed (your Museum, once), one request at a time. Item pages read buddy.farm,
+  opens, or the first time something is needed (your Museum, once; a place's info page the first time you explore there,
+  then once a month or when you find something new there), one request at a time. Item pages read buddy.farm,
   not the game's server.
 - **Plays well with others.** Needs no other script (FRPG HUD and the like). No page globals, no wrapping of the
   game's network calls; every id, class and saved setting starts with `frx`. Follows the game's dark and light mode.
