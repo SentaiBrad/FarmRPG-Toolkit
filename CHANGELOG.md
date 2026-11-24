@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.49.1 (2026-11-24)
+- Locksmith: every item a container gives is listed (no more "and N more", which hid items that could show red),
+  still on one line: when the names don't fit, the line shows pictures and amounts, with each name and your count in
+  its tooltip.
+
 ## 1.49.0 (2026-11-24)
 - New: **Exploring Counts.** On an exploring place's screen, under the game's buttons, everything that place gives
   (the game's own "Things found here", event items included) with your count "have / cap", red at your cap. Your

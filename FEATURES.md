@@ -133,7 +133,9 @@ Meals perk, eat from the list ("Eat · 461"); the game still asks before eating.
 
 **What you see:**
 - **Locksmith:** totals of the gold and valuable items your containers give (tap one to filter the list), and a line
-  under each container saying what the amount in its box gives (red when it's more than you have).
+  under each container saying what the amount in its box gives (red when it's more than you have). Every item is
+  listed, on one line: when the names don't fit, it shows pictures and amounts, with each name in its tooltip. An
+  item turns red when what the container gives would take you over your cap.
 - **A container's item page:** what all of yours give.
 - **Shops:** what a container on sale holds and its worth at Flea Market prices.
 - **After opening many Void Bags:** the game's popup of pictures lists each item once, with its name and amount.
