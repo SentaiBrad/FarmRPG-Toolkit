@@ -72,13 +72,18 @@ open it, and in the background only when something changed.
 - **Uses:**
   - Help Requests that ask for it: yours first; ones you've completed only in the "N more" tooltip.
   - Crafts and meals it goes into; a recipe it teaches.
-  - Farm buildings it goes into (Feed Mill with Feed per crop, Flour Mill, Sugar Cane Mill, Sawmill, Wine Cellar,
-    Pig Pen, Raptor Pen, Orchard, Grape Juice Vat), linked to the building on your farm.
+  - Farm buildings that use it, in the game's words: "Used by your Sugar Cane Mill farm building: White Sugar, Brown
+    Sugar, Molasses" (what each makes from it), "Used by your Feed Mill farm building: 12 Feed each", and the Wine
+    Cellar, Pig Pen, Raptor Pen, Orchard and Grape Juice Vat, each linked to the building on your farm.
   - Wishing Well, Exchange Center, Locksmith (keys), mining tools, places it unlocks.
   - Townsfolk who love or like it.
   - No use anywhere: "none yet: a Collectible", the Library's word for it.
-- **Where to get it:** drops (exploring, fishing, mining, farming), containers and the open shops that sell them,
-  crafting, cooking, shops, the Flea Market, Help Request rewards, townsfolk and pet rewards, the Tower, the Temple,
+- **Where to get it:** first the farm buildings that produce it, in the game's words, with what goes in, how often,
+  the perks and meals that raise it (yours or not) and, when it isn't on your farm, how to unlock it: "Produced by
+  your Sugar Cane Mill farm building · from 1 Glass Jar + 5 Unrefined Sugar · instantly", "Produced by your Flour
+  Mill farm building · 14.4 from each Wheat · 1 a minute · doubled with your Flour Power". Which buildings you have
+  is read when you open your farm. Then drops (exploring, fishing, mining, farming), containers and the open shops
+  that sell them, crafting, cooking, shops, the Flea Market, Help Request rewards, townsfolk and pet rewards, the Tower, the Temple,
   and more.
 - **Museum:** "not in your collection yet", only for items missing from your Museum.
 - **More:** links to the item's Library page (when it has one) and its buddy.farm page.

@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.52.0 (2026-11-24)
+- Item Uses: farm buildings, in the game's words. "Where to get it" starts with the buildings that produce the item:
+  "Produced by your Sugar Cane Mill farm building · from 1 Glass Jar + 5 Unrefined Sugar · instantly", with how
+  often, the perks and meals that raise it ("doubled with your Flour Power", "Sugar Boost II doubles it", "+30% with
+  your Forester I ... IV") and, when it isn't on your farm, how to unlock it. Every farm building's products come
+  from its Library page (16 buildings, 58 items, checked against buddy.farm), so items buddy.farm misses, like Brown
+  Sugar, Flour and Feed, now have them. "Uses" says which buildings use it the same way: "Used by your Sugar Cane
+  Mill farm building: White Sugar, Brown Sugar, Molasses". Your buildings are read when you open your farm.
+- Seed list (farm and Grape Juice Vat): its columns line up in Firefox's open list. Firefox draws that list in its
+  own menu font whatever the page asks for (Tahoma on Windows), so the fixed-width font never reached it; each column
+  is now padded to the same width in that font instead. Other browsers keep the fixed-width font.
+- Feed Mill: its crop list reads like the seed lists, "Broccoli (1548) | 24 Feed each", lined up the same way (one
+  shared way for every list the Toolkit adds to).
+
 ## 1.51.0 (2026-11-24)
 - Gifts: the game comes first. A townsfolk's mailbox shows a heart beside each item you've discovered they love or
   like; the Toolkit now saves that and uses it wherever gift tiers show (Friendship Gifts, item pages, Item Uses),
