@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.50.1 (2026-11-24)
+- Data check: Perks and Farm Supply clear from the list as soon as the page shows your perks. Before, opening one from
+  the Data check could leave it listed until something else changed on the page.
+- Data check: the open list updates whenever a page is seen or goes out of date, even when the number stays the same,
+  and a page seen in another tab of the game clears in this one at once.
+
 ## 1.50.0 (2026-11-24)
 - Locksmith: a container's Ancient Coin chip says where opening leaves you against your cap ("500 → 1,728 / 5,078"),
   following the amount in the box, red when it would take you over. Your count is read when the Locksmith opens with
