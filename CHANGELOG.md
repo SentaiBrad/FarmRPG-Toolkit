@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.51.0 (2026-11-24)
+- Gifts: the game comes first. A townsfolk's mailbox shows a heart beside each item you've discovered they love or
+  like; the Toolkit now saves that and uses it wherever gift tiers show (Friendship Gifts, item pages, Item Uses),
+  over its own data. Its data only answers for items you haven't discovered yet. Open a mailbox once to bring its
+  hearts in.
+
 ## 1.50.1 (2026-11-24)
 - Data check: Perks and Farm Supply clear from the list as soon as the page shows your perks. Before, opening one from
   the Data check could leave it listed until something else changed on the page.
