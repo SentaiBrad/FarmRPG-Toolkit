@@ -30,8 +30,7 @@ Each feature below has the same parts:
 | [Quiz Answers](#quiz-answers) | The answer to each quiz question |
 | [Wishing Well](#wishing-well) | What a toss can give, and the chances |
 | [Exploring Counts](#exploring-counts) | Your counts of what a place gives, while you explore |
-| [buddy.farm Links](#buddyfarm-links) | buddy.farm for every place, quest, pet and townsfolk |
-| [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
+| [buddy.farm Links](#buddyfarm-links) | buddy.farm for every place, quest, pet and townsfolk || [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
 | [On phones](#on-phones) | Tooltips, layout, folding |
 
 ---
@@ -370,6 +369,7 @@ links to that page.
 Links only: nothing is read from buddy.farm for this.
 
 ---
+
 
 ## Toolkit Menu
 

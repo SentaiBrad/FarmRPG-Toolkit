@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.54.3 (2026-11-26)
+- Friendship Gifts and the Flea Market: while your perks haven't been seen, both say it the same way, "Open your
+  Perks and Farm Supply once so your perks are counted." (Friendship's mailbox card said "Not seen yet: open your
+  Perks and Farm Supply pages once and they're filled in.")
+- Debug report: "Toolkit pieces on this page" now also counts Exploring Counts, Wishing Well, Quiz Answers and
+  buddy.farm Links, by each feature's own name.
+- Behind the scenes (core audit, small pieces): one Toolkit tag, one way to write chances ("33.3%", "1 in 20"), one
+  way to read a row's item name and to tell whether a page is still on screen. Nothing changes on screen.
+
+## 1.54.2 (2026-11-26, released together with 1.54.3)
+- Temple of Reward: each chain's Toolkit line now sits right under the chain's name, above the game's "Sacrifice:
+  ...", like the lines in shops, Unlock Goals and the Locksmith (it was last, under "Items Sacrificed").
+- Behind the scenes (core audit, placing): one shared way to put the Toolkit's lines, notes and name tags on a page,
+  used by every feature (Locksmith, Temple and Mines lines now use the same row line as shops). Nothing else changes
+  on screen.
+
 ## 1.54.1 (2026-11-25)
 - Behind the scenes (core audit, listeners): one listener each for window changes, drop-down picks and amount boxes,
   shared by every feature, and one phone-width check. Nothing changes on screen; fewer redraws while you resize the
