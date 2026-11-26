@@ -392,9 +392,14 @@ Holding Enter down never answers a second popup, and a box to type in keeps its 
   of the Day...), with links. The bar shows how many.
 - **Shortcuts:** game pages you choose. A shop that's closed right now is greyed with "Closed"; it still opens.
 - **Settings** and **Debug** (a report to copy when something looks wrong).
+- **Home:** while "Go into Town" says the game's "NEW POLL", it names the new poll, "NEW POLL (Favorite Thanksgiving
+  dish?)", and goes straight to it; with several, "NEW POLL (2 polls)" goes to the Polls page. Just "NEW POLL" on a
+  phone; the rest of the row still goes to Town. The Polls page is read when you open it, or once when a new poll
+  shows up.
 
 **Settings:**
 - Data check
+- Home: the game's "NEW POLL" names the poll (or how many) and goes straight to it
 - Row height in the menu, on a wide screen: 44px (the game's size), 40px, 36px, or 32px with smaller text
   (starts at 40px)
 - Row height in the menu, on a phone: the same choices (starts at 44px)

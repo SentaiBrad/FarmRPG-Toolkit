@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.55.1 (2026-11-26)
+- Home: while "Go into Town" says the game's "NEW POLL", those words become a link: one new poll, "NEW POLL (Favorite
+  Thanksgiving dish?)" straight to that poll (a long title cut short with "…", whole in the tooltip); several, "NEW
+  POLL (2 polls)" to the Polls page. On a phone just "NEW POLL". The rest of the row still goes to Town. New polls are
+  the ones above your newest vote on the Polls page, read when you open it, or once in the background when the
+  notice appears and none is known. A Toolkit Menu setting turns it off.
+
 ## 1.55.0 (2026-11-26)
 - Enter for Yes (new): with a keyboard, Enter presses Yes in the game's own Yes / Cancel popups, the centred ones and
   the ones that slide up from the bottom (the Turkey Trot's "Really cheer Buddy on?"), exactly like tapping it. While
