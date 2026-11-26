@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.54.1 (2026-11-25)
+- Behind the scenes (core audit, listeners): one listener each for window changes, drop-down picks and amount boxes,
+  shared by every feature, and one phone-width check. Nothing changes on screen; fewer redraws while you resize the
+  window.
+- Farm, with FRPG HUD: your count stays on HUD's "in inventory" line when you pick another seed (HUD's own text
+  could come back after a pick).
+
 ## 1.54.0 (2026-11-25)
 - Wishing Well: under the game's top text (after "Well Tossing Caps"), "Library:" links to every Library page
   about the Wishing Well (Wishing Well, WW Wants, Wishing Well Curios, Wishing Well Tips, Murky WW, WW Drops
