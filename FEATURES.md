@@ -325,7 +325,9 @@ data gets no answer rather than a wrong one. It never answers for you.
 **Where:** the Wishing Well.
 
 **What you see:** under "Select Item", what one toss of the item you picked can give and the chance of each, with
-links to those items. It changes as you pick another item. It never tosses anything.
+links to those items. It changes as you pick another item. It never tosses anything. Under the game's top text,
+"Library:" links to every Library page about the Wishing Well: Wishing Well, WW Wants, Wishing Well Curios, Wishing
+Well Tips, Murky WW and WW Drops Table (the list comes from the Library's own index when the Toolkit is built).
 
 **Data:** buddy.farm, checked against the Library's WW Drops Table when the Toolkit is built.
 

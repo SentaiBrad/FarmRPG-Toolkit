@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.54.0 (2026-11-25)
+- Wishing Well: under the game's top text (after "Well Tossing Caps"), "Library:" links to every Library page
+  about the Wishing Well (Wishing Well, WW Wants, Wishing Well Curios, Wishing Well Tips, Murky WW, WW Drops
+  Table), for the tables and tips the Toolkit can't show the same way. The list comes from the Library's own "WW"
+  index when the Toolkit is built; short names that only point to another page are left out. A setting turns it off.
+
 ## 1.53.1 (2026-11-25)
 - Crop Amounts and the game's new seed picker (update 680, Nov 25: crop art, seed counts, grow times with perks and
   meals, its own order in Farm Settings). The game builds the picker from the old seed menu's text, so the Toolkit's
