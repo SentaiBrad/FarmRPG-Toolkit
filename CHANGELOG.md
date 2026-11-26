@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.55.0 (2026-11-26)
+- Enter for Yes (new): with a keyboard, Enter presses Yes in the game's own Yes / Cancel popups, the centred ones and
+  the ones that slide up from the bottom (the Turkey Trot's "Really cheer Buddy on?"), exactly like tapping it. While
+  any popup is open, Enter no longer presses the button behind it (which opened another popup). Holding Enter never
+  answers a second popup; a box to type in keeps its own Enter. On by default; Settings turns it off.
+- FEATURES.md: the list at the top had two rows run together (from 1.54.3); fixed.
+
 ## 1.54.3 (2026-11-26)
 - Friendship Gifts and the Flea Market: while your perks haven't been seen, both say it the same way, "Open your
   Perks and Farm Supply once so your perks are counted." (Friendship's mailbox card said "Not seen yet: open your

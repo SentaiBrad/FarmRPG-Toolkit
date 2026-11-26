@@ -30,7 +30,9 @@ Each feature below has the same parts:
 | [Quiz Answers](#quiz-answers) | The answer to each quiz question |
 | [Wishing Well](#wishing-well) | What a toss can give, and the chances |
 | [Exploring Counts](#exploring-counts) | Your counts of what a place gives, while you explore |
-| [buddy.farm Links](#buddyfarm-links) | buddy.farm for every place, quest, pet and townsfolk || [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
+| [buddy.farm Links](#buddyfarm-links) | buddy.farm for every place, quest, pet and townsfolk |
+| [Enter for Yes](#enter-for-yes) | Enter presses Yes in the game's Yes / Cancel popups |
+| [Toolkit Menu](#toolkit-menu) | Data check, shortcuts, Settings, Debug |
 | [On phones](#on-phones) | Tooltips, layout, folding |
 
 ---
@@ -370,6 +372,16 @@ Links only: nothing is read from buddy.farm for this.
 
 ---
 
+## Enter for Yes
+
+**Where:** the game's own popups, with a keyboard: the centred ones and the ones that slide up from the bottom (the
+Turkey Trot's "Really cheer Buddy on?").
+
+**What you see:** in a Yes / Cancel popup, Enter presses Yes, exactly like tapping it. While any popup is open, Enter
+never presses the button behind it (on its own, the game's Enter pressed Cheer! again and opened another popup).
+Holding Enter down never answers a second popup, and a box to type in keeps its own Enter.
+
+---
 
 ## Toolkit Menu
 
