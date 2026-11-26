@@ -83,7 +83,8 @@ open it, and in the background only when something changed.
   your Sugar Cane Mill farm building · from 1 Glass Jar + 5 Unrefined Sugar · instantly", "Produced by your Flour
   Mill farm building · 14.4 from each Wheat · 1 a minute · doubled with your Flour Power". Which buildings you have
   is read when you open your farm. Then drops (exploring, fishing, mining, farming), containers and the open shops
-  that sell them, crafting, cooking, shops, the Flea Market, Help Request rewards, townsfolk and pet rewards, the Tower, the Temple,
+  that sell them, crafting, cooking, shops, the Flea Market, Borgen's Camp (its Ancient Coin price and when it was
+  last sold; every week known in the tooltip), Help Request rewards, townsfolk and pet rewards, the Tower, the Temple,
   and more.
 - **Museum:** "not in your collection yet", only for items missing from your Museum.
 - **More:** links to the item's Library page (when it has one) and its buddy.farm page.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.53.0 (2026-11-25)
+- Item Uses: Borgen's Camp as a source. "Where to get it" names Borgen's Camp for every item it's known to have
+  sold, with its Ancient Coin price and when ("500 Ancient Coins, last sold Nov 25, 2026"); the tooltip lists every
+  week known. Known weeks: April 2022 to May 2023 (buddy.farm's records) and every Wednesday you open the camp from
+  now on. Worth tooltips name the camp's last price when it isn't selling the item this week.
+- Exploring Counts: counts go up with every explore. Each explore adds what the game's reply says you found (and
+  sets your Apple, Apple Cider and drink counts exactly), and a read a few seconds after your last one makes them the
+  game's own again. Before, the read waited until you stopped, so counts froze while you kept exploring.
+
 ## 1.52.0 (2026-11-24)
 - Item Uses: farm buildings, in the game's words. "Where to get it" starts with the buildings that produce the item:
   "Produced by your Sugar Cane Mill farm building · from 1 Glass Jar + 5 Unrefined Sugar · instantly", with how
