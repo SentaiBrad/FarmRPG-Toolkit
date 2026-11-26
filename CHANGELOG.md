@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.53.1 (2026-11-25)
+- Crop Amounts and the game's new seed picker (update 680, Nov 25: crop art, seed counts, grow times with perks and
+  meals, its own order in Farm Settings). The game builds the picker from the old seed menu's text, so the Toolkit's
+  counts and times showed twice in it with ragged gaps, and its button showed our text cut off. Where the picker is,
+  the Toolkit now leaves the menu as the game wrote it, drops its own order (the game's Seed Display Order does it)
+  and adds only your count to each row, "4,597 / 5,162", red at your cap, lined up before the game's grow time.
+- The farm's "3533 Corn in inventory" is FRPG HUD's line (from its own running tally, "??" when it hasn't seen the
+  crop), not the game's. The Toolkit took it as an exact count each time the farm opened, so HUD's drifted number
+  briefly replaced your real one; it no longer does (the Grape Juice Vat's own line still counts). With HUD
+  installed, that line now shows your count the game's way, "3,699 / 5,162 Corn in inventory", red at your cap,
+  and the Toolkit's line under the seed menu leaves it out.
+
 ## 1.53.0 (2026-11-25)
 - Item Uses: Borgen's Camp as a source. "Where to get it" names Borgen's Camp for every item it's known to have
   sold, with its Ancient Coin price and when ("500 Ancient Coins, last sold Nov 25, 2026"); the tooltip lists every
