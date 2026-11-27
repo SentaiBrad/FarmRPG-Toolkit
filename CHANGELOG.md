@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.56.2 (2026-11-27)
+- Debug report: addresses are shown as they are. Long numbers (your farm's id) were replaced with "#", which read like
+  a broken address ("xfarm.php?id=#").
+
 ## 1.56.1 (2026-11-27)
 - Playing in an app window (Firefox or Waterfox "Add tab to taskbar", or an app on a phone's home screen): the
   Toolkit's links to other sites (buddy.farm, and "Details" in the settings) opened a new tab you couldn't see, since
