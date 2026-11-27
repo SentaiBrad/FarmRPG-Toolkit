@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.55.2 (2026-11-26)
+- Behind the scenes (core audit, styling): every text size the Toolkit uses now comes from one shared set, one size
+  per kind of text (a name, card text, a note, a small label, a line under a name), and the gift-tier colours in
+  Friendship Gifts come from shared colour classes instead of being written into each line. Nothing changes on screen.
+
 ## 1.55.1 (2026-11-26)
 - Home: while "Go into Town" says the game's "NEW POLL", those words become a link: one new poll, "NEW POLL (Favorite
   Thanksgiving dish?)" straight to that poll (a long title cut short with "…", whole in the tooltip); several, "NEW
