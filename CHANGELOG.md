@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.56.5 (2026-11-27)
+- Debug report, [Feature data]: also your Craftworks (each item, paused or not, and whether its recipe is known),
+  which counts are "about" right now, your farm (plots and buildings), and the names of the places known.
+- Behind the scenes (core audit, the last group): each part of the Toolkit gives its own line to the Debug report,
+  and the farm's plot count is kept with the farm. Nothing else changes on screen.
+
 ## 1.56.4 (2026-11-27)
 - Your Craftworks: pausing or resuming an item, on the Craftworks page or (new in the game's 27 Nov update) on the
   item's own page, is followed straight away, so the "about" counts while you explore use what's really running.
