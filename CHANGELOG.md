@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.58.1 (2026-11-27)
+- Sell Unlocked Fish from (a place): much faster. It paused between fish (8 fish took over 4 seconds); now each sale
+  follows the last one's reply straight away, still one at a time, and the game's own "working" spinner shows until
+  it's done.
+- Debug report, everything we might need: a new section with each step of a Toolkit action you asked for (Sell
+  Unlocked Fish: the tap, the read, game popups already open, the question, your answer, the result, each with its
+  time); the game's popups open right now; phone width; Compact Buttons; inventory read timing; each place's saved
+  "Things found here" list; places not unlocked yet; mastery reads waiting; every game reply seen this session; more
+  game replies under [Game hooks]; and every saved request and reply, not just the latest few.
+
 ## 1.58.0 (2026-11-27)
 - Compact Buttons (new): on a screen wider than a phone, the game's big buttons are shorter, so more of the page fits.
   First, fishing: Sell Unlocked Fish, Large Net, LN x10 and Feed Fish share one row, 48px tall instead of 60 and more.
