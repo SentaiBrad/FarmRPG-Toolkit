@@ -347,8 +347,13 @@ Your Craftworks crafts on the game's side while you play, and the game doesn't s
 your Craftworks page, the Toolkit works out what it would have used and made; those counts show "about" (why in the
 tooltip) until your inventory is read again, every 10 seconds while you keep going and a few seconds after you stop.
 
+At a fishing spot, the card's title line has a "Sell Unlocked Fish from (the place)" button: the game's Sell Unlocked
+Fish for that place only. It sells only fish, only ones the place's info page shows unlocked (read again the moment
+you tap), and never anything locked. The game's own Yes / Cancel question lists each fish and how many first.
+
 **Settings:**
 - At fishing spots too
+- At fishing spots: a "Sell Unlocked Fish from (the place)" button
 - Layout on a wide screen: Tiles (picture, name, count) or List (two columns)
 - Layout on a phone: Pictures (picture and count; names in tooltips) or List
 

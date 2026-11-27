@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.58.0 (2026-11-27)
+- Compact Buttons (new): on a screen wider than a phone, the game's big buttons are shorter, so more of the page fits.
+  First, fishing: Sell Unlocked Fish, Large Net, LN x10 and Feed Fish share one row, 48px tall instead of 60 and more.
+  Every button stays and does the same thing; while you feed fish, Feed Fish (Stop) has its own line again, as the
+  game shows it. On a phone nothing changes. A setting per page.
+
+## 1.57.0 (2026-11-27)
+- Fishing spots (new): a "Sell Unlocked Fish from (the place)" button on Exploring Counts' card. Like the game's Sell
+  Unlocked Fish, but only for that place: only fish, only the ones its info page shows unlocked, read fresh the
+  moment you tap. Anything locked is never sold. You get the game's own Yes / Cancel question first, listing each
+  fish and how many. Then each one is sold with the game's Quick Sell, one after another, stopping at the first
+  problem, and your counts are read again. A setting turns it off.
+
 ## 1.56.6 (2026-11-27)
 - buddy.farm links after a name (places, quests, pets, townsfolk): the arrow is now a small filled violet button with
   a gap before it. The plain arrow sat right against the name in the same colour and read as part of the name's link.
