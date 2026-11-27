@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.56.3 (2026-11-27)
+- Debug report: how your browser shows the game, under [FarmRPG Toolkit]: display mode, app window or not, reduced
+  motion (with it on, the game doesn't animate the farm's grow bars), and touch or mouse.
+
 ## 1.56.2 (2026-11-27)
 - Debug report: addresses are shown as they are. Long numbers (your farm's id) were replaced with "#", which read like
   a broken address ("xfarm.php?id=#").
