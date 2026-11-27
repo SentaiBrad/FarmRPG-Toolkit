@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.56.0 (2026-11-27)
+- Exploring Counts and your Craftworks: Craftworks crafts on the game's side while you explore, and the game's reply
+  doesn't say what it used, so counts kept adding finds Craftworks had already used up (Fire Ant showed "5,162 / 5,162"
+  when it wasn't at the cap). Now the Toolkit knows your Craftworks (open the Craftworks page once; it's read again
+  whenever you open it) and works out what it would have used and made after each explore. Those counts show "about"
+  ("about 24 / 5,190", why in the tooltip) until your inventory is read again: every 10 seconds while you keep going,
+  and a few seconds after you stop, as before. The Toolkit menu's Data check lists the Craftworks page.
+- Exploring Counts at fishing spots (new): the same card of what the spot gives, under the game's "Feed Fish", with
+  counts that follow every catch and net. A setting turns it off.
+
 ## 1.55.2 (2026-11-26)
 - Behind the scenes (core audit, styling): every text size the Toolkit uses now comes from one shared set, one size
   per kind of text (a name, card text, a note, a small label, a line under a name), and the gift-tier colours in

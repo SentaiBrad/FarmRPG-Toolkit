@@ -336,13 +336,19 @@ Well Tips, Murky WW and WW Drops Table (the list comes from the Library's own in
 
 ## Exploring Counts
 
-**Where:** an exploring place's screen (the one with Continue), under the game's buttons.
+**Where:** an exploring place's screen (the one with Continue), under the game's buttons, and a fishing spot's screen,
+under "Feed Fish".
 
 **What you see:** everything that place gives, in the game's own order, with your count "have / cap", red at your
-cap. Each item links to its page. Your counts are read a few seconds after your last explore, so they're always the
-game's own.
+cap. Each item links to its page. Counts go up with every explore or catch (what the game says you found) and are
+read a few seconds after your last one, so they're always the game's own.
+
+Your Craftworks crafts on the game's side while you play, and the game doesn't say what it used. Once you've opened
+your Craftworks page, the Toolkit works out what it would have used and made; those counts show "about" (why in the
+tooltip) until your inventory is read again, every 10 seconds while you keep going and a few seconds after you stop.
 
 **Settings:**
+- At fishing spots too
 - Layout on a wide screen: Tiles (picture, name, count) or List (two columns)
 - Layout on a phone: Pictures (picture and count; names in tooltips) or List
 
