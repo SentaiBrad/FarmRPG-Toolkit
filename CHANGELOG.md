@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.56.1 (2026-11-27)
+- Playing in an app window (Firefox or Waterfox "Add tab to taskbar", or an app on a phone's home screen): the
+  Toolkit's links to other sites (buddy.farm, and "Details" in the settings) opened a new tab you couldn't see, since
+  an app window has no tabs. Now they leave the app window: a tab in your main browser window (Waterfox), or a window
+  of their own. In a normal browser window nothing changes.
+- A place you haven't unlocked (the Sinking Swamp before the Swamp Puzzle) linked to its own page, which only sends
+  you back to how to unlock it. It now links to its info page ("Things found here"), which opens while it's locked;
+  once it's unlocked, the link goes to the place as before.
+- A Toolkit link to the page you're already on is no longer a link (the words and tooltip stay).
+- The Toolkit has its own icon in Tampermonkey: Farm RPG's emblem with a purple "T".
+
 ## 1.56.0 (2026-11-27)
 - Exploring Counts and your Craftworks: Craftworks crafts on the game's side while you explore, and the game's reply
   doesn't say what it used, so counts kept adding finds Craftworks had already used up (Fire Ant showed "5,162 / 5,162"
