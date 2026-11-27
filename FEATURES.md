@@ -364,13 +364,13 @@ Your counts: your inventory, read when you open the place and a few seconds afte
 Flea Market, Unlock Goals), and at the bottom of a Help Request, a place's info page, a pet's page and a townsfolk's
 mailbox.
 
-**What you see:** a small arrow after each name that opens its buddy.farm page in a new tab; the name itself still
-opens the game's page. At the bottom of the pages above: "More: Library · buddy.farm" (the Library when it has a
+**What you see:** a small violet button with an arrow after each name, which opens its buddy.farm page in a new tab;
+the name itself still opens the game's page. At the bottom of the pages above: "More: Library · buddy.farm" (the Library when it has a
 page for it). Items already have both: their page's card ends in the same line, and every item the Toolkit names
 links to that page.
 
 **Settings:**
-- A small arrow after each place, Help Request, pet and townsfolk the Toolkit names
+- A small buddy.farm button after each place, Help Request, pet and townsfolk the Toolkit names
 - "More: Library · buddy.farm" at the bottom of their own pages
 
 **Data:** buddy.farm's page addresses and the Library's page names, from their copies when the Toolkit is built.

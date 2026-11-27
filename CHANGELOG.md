@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.56.6 (2026-11-27)
+- buddy.farm links after a name (places, quests, pets, townsfolk): the arrow is now a small filled violet button with
+  a gap before it. The plain arrow sat right against the name in the same colour and read as part of the name's link.
+
 ## 1.56.5 (2026-11-27)
 - Debug report, [Feature data]: also your Craftworks (each item, paused or not, and whether its recipe is known),
   which counts are "about" right now, your farm (plots and buildings), and the names of the places known.

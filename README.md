@@ -41,7 +41,7 @@ Every feature in detail (where it shows, what you see, its settings, where its d
 - **Quiz Answers**: the right answer under each Schoolhouse quiz question, folded until you open it.
 - **Wishing Well**: what a toss of the item you picked can give, and the chance of each.
 - **Exploring Counts**: your counts of what a place gives, under its explore buttons and at fishing spots.
-- **buddy.farm Links**: a small arrow to buddy.farm after every place, quest, pet and townsfolk, and on their pages.
+- **buddy.farm Links**: a small buddy.farm button after every place, quest, pet and townsfolk, and on their pages.
 - **Toolkit Menu**: the Data check, shortcuts, Settings and Debug, at the bottom of the left menu.
 
 On phones, tap the Toolkit's dotted text (or hold a link) to see its tooltip.
