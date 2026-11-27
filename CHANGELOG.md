@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.56.4 (2026-11-27)
+- Your Craftworks: pausing or resuming an item, on the Craftworks page or (new in the game's 27 Nov update) on the
+  item's own page, is followed straight away, so the "about" counts while you explore use what's really running.
+
 ## 1.56.3 (2026-11-27)
 - Debug report: how your browser shows the game, under [FarmRPG Toolkit]: display mode, app window or not, reduced
   motion (with it on, the game doesn't animate the farm's grow bars), and touch or mouse.
