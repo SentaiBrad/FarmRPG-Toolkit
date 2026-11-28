@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.58.3 (2026-11-27)
+- The farm: the seed order is back, as the game's own. Left of the game's seed button, a small icon opens the game's
+  Seed Display Order (Alphabetical or Growth Time); picking one changes your Farm Settings, exactly as saving them
+  there would, and the farm redraws in that order. Next to it, a cog opens Farm Settings. A Crop Amounts setting
+  turns both off.
+
 ## 1.58.2 (2026-11-27)
 - Every item chip the Toolkit shows now opens that item's page: what a Locksmith container gives (on the Locksmith
   and on the container's own page), what's inside a container in a shop, Friendship's items to give, the Wishing
