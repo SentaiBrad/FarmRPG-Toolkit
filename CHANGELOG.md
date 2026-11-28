@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.58.2 (2026-11-27)
+- Every item chip the Toolkit shows now opens that item's page: what a Locksmith container gives (on the Locksmith
+  and on the container's own page), what's inside a container in a shop, Friendship's items to give, the Wishing
+  Well's odds. Handy with Quick Craft to get something back under your cap. Chips keep their look: no underline, the
+  violet border when you point at one, red at your cap.
+
 ## 1.58.1 (2026-11-27)
 - Sell Unlocked Fish from (a place): much faster. It paused between fish (8 fish took over 4 seconds); now each sale
   follows the last one's reply straight away, still one at a time, and the game's own "working" spinner shows until
